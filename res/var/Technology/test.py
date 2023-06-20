@@ -1,0 +1,766 @@
+_str = '''What type of software allows you to send and receive emails?
+a. Email client
+b. Text editor
+c. Media player
+d. Image editor
+Answer: 1
+
+Which protocol is used for file transfer on the internet?
+a. HTTP
+b. FTP
+c. DNS
+d. SMTP
+Answer: 2
+
+What is the main function of a router in a computer network?
+a. Data storage
+b. Data encryption
+c. Data transmission
+d. Data routing
+Answer: 4
+
+What is the most widely used operating system for personal computers?
+a. Mac OS
+b. Windows
+c. Linux
+d. Unix
+Answer: 2
+
+What is the programming language used to create dynamic web pages?
+a. Python
+b. Java
+c. PHP
+d. Ruby
+Answer: 3
+
+What is the primary function of a server in a computer network?
+a. Data storage
+b. Data processing
+c. Data transmission
+d. Data routing
+Answer: 1
+
+What is the process of converting code into a form that can be executed by a computer called?
+a. Encryption
+b. Compression
+c. Decompression
+d. Compilation
+Answer: 4
+
+What is the main component of a computer that stores data and programs?
+a. Motherboard
+b. Hard disk drive
+c. Random access memory
+d. Graphics card
+Answer: 2
+
+What is the process of converting data into a code to protect it called?
+a. Compression
+b. Decompression
+c. Encryption
+d. Decryption
+Answer: 3
+
+What is the process of transmitting data from one device to another over a network called?
+a. Streaming
+b. Broadcasting
+c. Uploading
+d. Downloading
+Answer: 4
+
+What is the name of the technology that enables multiple devices to connect and share data over a network?
+a. Cloud computing
+b. Wireless networking
+c. Wired networking
+d. Distributed computing
+Answer: 2
+
+What is the technology that allows you to access and manipulate data and applications remotely through the internet called?
+a. Remote desktop
+b. Virtual reality
+c. Cloud computing
+d. Artificial intelligence
+Answer: 3
+
+What is the technology that allows you to access the internet without a wired connection called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. NFC
+Answer: 1
+
+What is the process of dividing a large data file into smaller pieces called?
+a. Compression
+b. Encryption
+c. Decompression
+d. Segmentation
+Answer: 4
+
+What is the technology that allows you to use your mobile phone as a remote control for other devices called?
+a. NFC
+b. Bluetooth
+c. Wi-Fi
+d. Infrared
+Answer: 2
+
+What is the process of sending data from a device to another over a network called?
+a. Streaming
+b. Broadcasting
+c. Downloading
+d. Uploading
+Answer: 4
+
+What is the technology that allows you to store and access data and applications over the internet called?
+a. Cloud computing
+b. Grid computing
+c. Peer-to-peer computing
+d. Edge computing
+Answer: 1
+
+What is the process of protecting data from unauthorized access called?
+a. Decryption
+b. Compression
+c. Encryption
+d. Decompression
+Answer: 3
+
+What is the technology that allows you to use your voice to control and operate digital devices called?
+a. Voice recognition
+b. Voice synthesis
+c. Voice modulation
+d. Voice encryption
+Answer: 1
+
+What is the technology that enables two devices to communicate wirelessly with each other over a short distance called?
+a. Bluetooth
+b. NFC
+c. Wi-Fi
+d. ZigBee
+Answer: 2
+
+What is the process of converting analog signals into digital signals called?
+a. Decompression
+b. Compression
+c. Sampling
+d. Quantization
+Answer: 4
+
+What is the technology that enables wireless internet connectivity in vehicles called?
+a. Wi-Fi
+b. Bluetooth
+c. GPS
+d. Wi-Fi Direct
+Answer: 1
+
+What is the technology that allows you to make payments using your mobile phone called?
+a. Mobile payment
+b. Mobile banking
+c. Mobile money
+d. Mobile wallet
+Answer: 1
+
+What is the technology that enables you to connect to the internet using a satellite connection called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Satellite internet
+Answer: 4
+
+What is the technology that allows you to make phone calls and send messages using a data connection instead of a voice connection called?
+a. Voice over IP
+b. Voice over LTE
+c. Voice over Wi-Fi
+d. Voice over Bluetooth
+Answer: 1
+
+What is the technology that allows you to access and view virtual reality environments using a headset called?
+a. Virtual reality
+b. Augmented reality
+c. Mixed reality
+d. Extended reality
+Answer: 1
+
+What is the technology that enables you to control the movement and position of objects using hand gestures called?
+a. Gesture recognition
+b. Face recognition
+c. Voice recognition
+d. Fingerprint recognition
+Answer: 1
+
+What is the technology that enables you to store and retrieve data from a storage device using magnetic fields called?
+a. Hard disk drive
+b. Solid-state drive
+c. Floppy disk
+d. Optical disk
+Answer: 1
+
+What is the technology that enables you to store and retrieve data from a storage device using laser beams called?
+a. Hard disk drive
+b. Solid-state drive
+c. Floppy disk
+d. Optical disk
+Answer: 4
+
+What is the technology that enables you to securely store and access data using a password and encryption called?
+a. Cloud computing
+b. Data security
+c. Data privacy
+d. Data encryption
+Answer: 2
+
+What is the technology that enables you to store and access data and applications on remote servers rather than on your local device called?
+a. Cloud computing
+b. Grid computing
+c. Peer-to-peer computing
+d. Edge computing
+Answer: 1
+
+What is the technology that enables you to control and operate digital devices using your voice commands called?
+a. Voice recognition
+b. Voice synthesis
+c. Voice modulation
+d. Voice encryption
+Answer: 1
+
+What is the process of storing data on multiple devices to ensure data availability and reliability called?
+a. Data backup
+b. Data redundancy
+c. Data mirroring
+d. Data replication
+Answer: 2
+
+What is the technology that enables you to connect to the internet and access the world wide web called?
+a. Web browser
+b. Web server
+c. Web hosting
+d. Web portal
+Answer: 1
+
+What is the process of removing redundant data and compressing data to save storage space called?
+a. Decompression
+b. Compression
+c. Sampling
+d. Quantization
+Answer: 2
+
+What is the technology that enables you to store and access data and applications on remote servers rather than on your local device called?
+a. Cloud computing
+b. Grid computing
+c. Peer-to-peer computing
+d. Edge computing
+Answer: 1
+
+What is the technology that enables you to control the brightness and color temperature of the display on your device called?
+a. Color correction
+b. Color grading
+c. Color management
+d. Color calibration
+Answer: 4
+
+What is the technology that enables you to access and view augmented reality environments using a mobile device camera called?
+a. Virtual reality
+b. Augmented reality
+c. Mixed reality
+d. Extended reality
+Answer: 2
+
+What is the technology that enables you to transmit data wirelessly over a large area using radio waves called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Cellular network
+Answer: 4
+
+What is the process of breaking down data into smaller packets and transmitting them across a network called?
+a. Data encapsulation
+b. Data fragmentation
+c. Data compression
+d. Data encryption
+Answer: 1
+
+What is the technology that enables you to store and access data on removable storage devices such as USB drives called?
+a. External storage
+b. Internal storage
+c. Portable storage
+d. Removable storage
+Answer: 1
+
+What is the process of compressing data to reduce its file size called?
+a. Decompression
+b. Compression
+c. Sampling
+d. Quantization
+Answer: 2
+
+What is the process of transmitting data over a network using light signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 1
+
+What is the technology that enables you to use a touch-sensitive display to control and operate digital devices called?
+a. Touchscreen
+b. Touchpad
+c. Touch controller
+d. Touch sensor
+Answer: 1
+
+What is the process of converting digital signals back into analog signals called?
+a. Decompression
+b. Compression
+c. Sampling
+d. Digital-to-analog conversion
+Answer: 4
+
+What is the technology that enables you to use a physical keyboard to enter data into a digital device called?
+a. Physical keyboard
+b. Virtual keyboard
+c. Touch keyboard
+d. On-screen keyboard
+Answer: 1
+
+What is the technology that enables you to transmit data over a network using infrared signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 3
+
+What is the technology that enables you to store and access data on remote servers over the internet called?
+a. Cloud storage
+b. Grid storage
+c. Peer-to-peer storage
+d. Edge storage
+Answer: 1
+
+What is the process of encrypting data to protect it from unauthorized access called?
+a. Data encryption
+b. Data decryption
+c. Data compression
+d. Data hashing
+Answer: 1
+
+What is the process of breaking down audio signals into smaller, discrete digital signals called?
+a. Audio compression
+b. Audio quantization
+c. Audio sampling
+d. Audio digitization
+Answer: 4
+
+What is the technology that enables you to use a mouse to control and operate digital devices called?
+a. Mouse
+b. Touchpad
+c. Trackball
+d. Joystick
+Answer: 1
+
+What is the technology that enables you to use a camera to capture and store images and videos called?
+a. Camera
+b. Camcorder
+c. Webcam
+d. Action camera
+Answer: 1
+
+What is the technology that enables you to transmit data wirelessly over a short distance using radio waves called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Cellular network
+Answer: 3
+
+What is the process of sending data from one device to another over a network called?
+a. Data transfer
+b. Data storage
+c. Data compression
+d. Data encryption
+Answer: 1
+
+What is the process of converting analog signals into digital signals called?
+a. Decompression
+b. Compression
+c. Sampling
+d. Analog-to-digital conversion
+Answer: 4
+
+What is the process of storing and organizing data in a way that makes it easily searchable and accessible called?
+a. Data retrieval
+b. Data management
+c. Data organization
+d. Data indexing
+Answer: 3
+
+What is the technology that enables you to use a touchpad to control and operate digital devices called?
+a. Touchscreen
+b. Touchpad
+c. Touch controller
+d. Touch sensor
+Answer: 2
+
+What is the technology that enables you to use a stylus to write and draw on a touch-sensitive display called?
+a. Stylus
+b. Pen
+c. Brush
+d. Marker
+Answer: 1
+
+What is the process of transmitting data over a network using microwave signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 4
+
+What is the technology that enables you to use a speaker to produce sound from a digital device called?
+a. Speaker
+b. Headphone
+c. Microphone
+d. Earbud
+Answer: 1
+
+What is the process of dividing a larger data file into smaller parts for transmission over a network called?
+a. Data fragmentation
+b. Data compression
+c. Data encryption
+d. Data sampling
+Answer: 1
+
+What is the process of combining multiple smaller data files into a single larger file called?
+a. Data compression
+b. Data fragmentation
+c. Data de-fragmentation
+d. Data file concatenation
+Answer: 4
+
+What is the technology that enables you to use a microphone to record and transmit sound to a digital device called?
+a. Speaker
+b. Headphone
+c. Microphone
+d. Earbud
+Answer: 3
+
+What is the process of copying data from a device to a remote server for backup purposes called?
+a. Data replication
+b. Data backup
+c. Data recovery
+d. Data migration
+Answer: 2
+
+What is the process of restoring data from a backup to its original location called?
+a. Data recovery
+b. Data backup
+c. Data replication
+d. Data migration
+Answer: 1
+
+What is the technology that enables you to use a touch-sensitive display to control and operate digital devices called?
+a. Touchscreen
+b. Touchpad
+c. Touch controller
+d. Touch sensor
+Answer: 1
+
+What is the technology that enables you to transmit data over a network using light signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 1
+
+What is the technology that enables you to use a headphone to listen to audio from a digital device called?
+a. Speaker
+b. Headphone
+c. Microphone
+d. Earbud
+Answer: 2
+
+What is the process of transmitting data over a network using infrared signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 3
+
+What is the process of retrieving and displaying data from a database called?
+a. Data retrieval
+b. Data management
+c. Data organization
+d. Data indexing
+Answer: 1
+
+What is the process of compressing data to reduce its size called?
+a. Data compression
+b. Data fragmentation
+c. Data de-compression
+d. Data file concatenation
+Answer: 1
+
+What is the process of restoring compressed data back to its original form called?
+a. Data compression
+b. Data fragmentation
+c. Data de-compression
+d. Data file concatenation
+Answer: 3
+
+What is the process of transmitting data over a network using radio waves called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 2
+
+What is the process of transmitting data over a network using wired connections called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Cellular network
+Answer: 2
+
+What is the technology that enables you to use a touch-sensitive display to control and operate digital devices from a distance called?
+a. Remote
+b. Touchscreen
+c. Touchpad
+d. Touch controller
+Answer: 1
+
+What is the process of converting digital signals back into analog signals called?
+a. Analog-to-digital conversion
+b. Digital-to-analog conversion
+c. Signal conversion
+d. Data conversion
+Answer: 2
+
+What is the process of transmitting data over a network using cellular signals called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Cellular network
+Answer: 4
+
+What is the process of dividing data into smaller units for more efficient transmission over a network called?
+a. Data fragmentation
+b. Data compression
+c. Data encryption
+d. Data packetization
+Answer: 4
+
+What is the process of converting a file from one format to another called?
+a. File conversion
+b. Format conversion
+c. Data conversion
+d. Document conversion
+Answer: 2
+
+What is the technology that enables you to access and control your digital devices using voice commands called?
+a. Voice recognition
+b. Voice control
+c. Voice command
+d. Voice interface
+Answer: 1
+
+What is the technology that enables you to transfer data wirelessly between digital devices called?
+a. Wi-Fi
+b. Ethernet
+c. Bluetooth
+d. Cellular network
+Answer: 3
+
+What is the technology that enables you to use a remote to control and operate digital devices from a distance called?
+a. Remote
+b. Touchscreen
+c. Touchpad
+d. Touch controller
+Answer: 1
+
+What is the technology that enables you to use a camera to scan images, texts, and other types of data called?
+a. Scanner
+b. Printer
+c. Copier
+d. Fax machine
+Answer: 1
+
+What is the technology that enables you to use a device to print texts, images, and other types of data called?
+a. Scanner
+b. Printer
+c. Copier
+d. Fax machine
+Answer: 2
+
+What is the technology that enables you to use a device to copy texts, images, and other types of data called?
+a. Scanner
+b. Printer
+c. Copier
+d. Fax machine
+Answer: 3
+
+What is the technology that enables you to use a device to send and receive texts, images, and other types of data over a telephone line called?
+a. Scanner
+b. Printer
+c. Copier
+d. Fax machine
+Answer: 4
+
+What is the technology that enables you to use a device to perform arithmetic and logical operations called?
+a. Processor
+b. Memory
+c. Storage
+d. Motherboard
+Answer: 1
+
+What is the technology that enables you to store and retrieve data in a computer called?
+a. Processor
+b. Memory
+c. Storage
+d. Motherboard
+Answer: 3
+
+What is the technology that enables you to connect and manage all the components of a computer called?
+a. Processor
+b. Memory
+c. Storage
+d. Motherboard
+Answer: 4
+
+What is the technology that enables you to store and retrieve instructions for a computer to execute called?
+a. Processor
+b. Memory
+c. Storage
+d. Motherboard
+Answer: 2
+
+What is the process of converting a digital signal into an analog signal called?
+a. Analog-to-digital conversion
+b. Digital-to-analog conversion
+c. Signal conversion
+d. Data conversion
+Answer: 2
+
+What is the process of transmitting data over a network using microwaves called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 4
+
+What is the process of encrypting data to secure it from unauthorized access called?
+a. Data encryption
+b. Data compression
+c. Data packetization
+d. Data fragmentation
+Answer: 1
+
+What is the process of dividing a large file into smaller units for more efficient transmission over a network called?
+a. Data fragmentation
+b. Data compression
+c. Data encryption
+d. Data packetization
+Answer: 4
+
+What is the process of compressing data to reduce its size called?
+a. Data compression
+b. Data encryption
+c. Data packetization
+d. Data fragmentation
+Answer: 1
+
+What is the process of breaking down a large file into smaller units for storage and retrieval purposes called?
+a. Data fragmentation
+b. Data compression
+c. Data encryption
+d. Data packetization
+Answer: 1
+
+What is the process of dividing data into small packets for efficient transmission over a network called?
+a. Data fragmentation
+b. Data compression
+c. Data encryption
+d. Data packetization
+Answer: 4
+
+What is the process of converting data into a code to prevent unauthorized access called?
+a. Data encryption
+b. Data compression
+c. Data packetization
+d. Data fragmentation
+Answer: 1
+
+What is the process of transmitting data over a network using light signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 1
+
+What is the process of transmitting data over a network using infrared signals called?
+a. Optical communication
+b. Radio communication
+c. Infrared communication
+d. Microwave communication
+Answer: 3
+'''
+
+def returnNum(_var):
+    if _var == 'A':
+        return 1
+    if _var == 'B':
+        return 2
+    if _var == 'C':
+        return 3
+    if _var == 'D':
+        return 4
+
+from googletrans import Translator
+
+translator = Translator()
+
+newVar = ""
+cou = 0
+# for line in _str.splitlines():
+#     cou+=1
+#     if cou == 1:
+#         newVar+=f'i++\nwindow["i-e-q-ma"+i] = "{(translator.translate(line, src="en", dest="ml").text)}";\nwindow["i-e-q-en"+i] = "{line}";\n'
+#     if cou == 2:
+#         newVar+=f'window["i-e-A"+i] = "{line}";\n'.replace("A) ","")
+#     if cou == 3:
+#         newVar+=f'window["i-e-B"+i] = "{line}";\n'.replace("B) ","")
+#     if cou == 4:
+#         newVar+=f'window["i-e-C"+i] = "{line}";\n'.replace("C) ","")
+#     if cou == 5:
+#         newVar+=f'window["i-e-D"+i] = "{line}";\n'.replace("D) ","")
+#     if cou == 6:
+#         tmpVar = line.replace("Answer: ",'')
+#         newVar+= f'window["i-e-ans"+i] = {returnNum(tmpVar)};\n'.replace("Answer: ",'')
+#     if cou == 7:
+#         cou = 0
+#         newVar+="\n"
+# print(newVar)
+
+for line in _str.splitlines():
+    cou+=1
+    if cou == 1:
+        newVar+=f'i++\nwindow["i-h-q-ma"+i] = "{(translator.translate(line, src="en", dest="ml").text)}";\nwindow["i-h-q-en"+i] = "{line}";\n'
+    if cou == 2:
+        newVar+=f'window["i-h-A"+i] = "{line}";\n'.replace("a. ","")
+    if cou == 3:
+        newVar+=f'window["i-h-B"+i] = "{line}";\n'.replace("b. ","")
+    if cou == 4:
+        newVar+=f'window["i-h-C"+i] = "{line}";\n'.replace("c. ","")
+    if cou == 5:
+        newVar+=f'window["i-h-D"+i] = "{line}";\n'.replace("d. ","")
+    if cou == 6:
+        newVar+= f'window["i-h-ans"+i] = {line};\n'.replace("Answer: ",'')
+    if cou == 7:
+        cou = 0
+        newVar+="\n"
+print(newVar)
+
+
+
+# translated_text = translator.translate('안녕하세요.')
+# print(translated_text.text)
+
+# translated_text = translator.translate('안녕하세요.', dest='ml')
+# print(translated_text.text)
+
+# translated_text = translator.translate('veritas lux mea', src='la', dest='ml')
+# print(translated_text.text)

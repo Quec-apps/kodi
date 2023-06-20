@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <script src="../res/jquery.min.js"></script>
+<style>
+@font-face {
+    font-family: Rubik;
+    src: url(../res/font/Rubik-Medium.ttf);
+}
+html, body {
+width: 100vw; height: 100vh; overflow: hidden;
+}
+body {
+width: 100vw; height: 100vh;
+margin: 0;
+background-image: radial-gradient( #23105f, #010d37);
+font-family: Rubik; color: #d5d7d5;
+user-select: none; /* supported by Chrome and Opera */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+}
+.content {
+height: 100vh;
+display: flex; flex-wrap: wrap;
+align-content: center; justify-content: center;
+}
+.txt {
+    font-size: 8vw;
+}
+.btn-bg {
+width: 100vw; height: 30vh;
+display: flex; justify-content: space-evenly; align-items: center;
+}
+.btn {
+width: 30vw; height: 30vw;
+} .btn:active {
+transition: none; transform: scale(.95);
+}
+</style>
+</head>
+<body>
+<div class="content">
+ <div class="txt">Network Disconnected!</div>
+    <div class="btn-bg">
+        <img src="../res/img/home.png" class="btn home">
+    </div>
+</div>
+<script>
+$(".home").click(function() {
+setTimeout(() => {
+localStorage.setItem("tam_intro", 1);
+location.replace("../title.html");
+}, 400);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg</title>
+    <script src="res/jquery.min.js"></script>
+</head>
+
+<body>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(res/font/Rubik-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-content {
+            max-width: 500px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            display: none;
+        }
+
+        .loading-con {
+            width: 100%;
+            height: 100vh;
+            background-image: radial-gradient(#23105f, #010d37);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .start {
+            display: none;
+        }
+
+        .loading {
+            position: fixed;
+            top: 50vh;
+        }
+
+        .version {
+            position: absolute;
+            top: 1vw;
+            left: 1vw;
+            font-size: 10px;
+            color: #5c5296;
+        }
+
+        .button-bg {
+            width: 100%;
+            margin-top: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .button-stick {
+            width: 100%;
+            height: .5vh;
+            background-color: #d5d7d5;
+            position: absolute;
+            top: 48%;
+            left: 0;
+            z-index: 0;
+            animation: stick 400ms ease 1;
+            transition: all 300ms ease;
+        }
+
+        @keyframes stick {
+            0% {
+                transform: translate(100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .button {
+            width: 70%;
+            padding: 2vh 0;
+            background-image: url(res/img/button-bg.png);
+            background-size: 100% 100%;
+            text-align: center;
+            z-index: 1;
+            font-size: 20px;
+            animation: button 400ms ease 1;
+            transition: transform 300ms ease;
+        }
+
+        @keyframes button {
+            0% {
+                transform: translate(-100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .button:active {
+            transition: none;
+            transform: scale(.95);
+        }
+    </style>
+    <audio src="res/audio/gameplay.mp3" id="gameplay-audio" loop></audio>
+    <audio src="res/audio/intro.mp3" id="intro-audio"></audio>
+    <audio src="res/audio/lose.mp3" id="lose-audio"></audio>
+    <audio src="res/audio/play.mp3" id="play-audio"></audio>
+    <audio src="res/audio/win.mp3" id="win-audio"></audio>
+    <audio src="res/audio/gameplay.mp3" id="gameplay-audio"></audio>
+    <audio src="res/audio/hint.mp3" id="hint-audio"></audio>
+    <audio src="res/audio/click.mp3" id="click-audio"></audio>
+    <div class="main-content">
+        <iframe src="title.html" frameborder="0"></iframe>
+        <img src="res/img/logo.png" class="logo-img" style="display: none;">
+        <div class="loading-con">
+            <div class="loading">Loading...</div>
+            <div class="version">version 1</div>
+            <div class="button-bg start">
+                <div class="button-stick button-stick2"></div>
+                <div class="button button2">START</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //Neengalum Vellalam Oru Kodi
+        gameplayAudio = false;
+        localStorage.setItem("tam_inter", 0);
+        setInterval(() => {
+            if (localStorage.getItem("gameplay") == 1) {
+                if (!gameplayAudio) {
+                    gameplayAudio = true;
+                    document.getElementById("gameplay-audio").play();
+                }
+            } else {
+                gameplayAudio = false;
+                document.getElementById("gameplay-audio").pause();
+            }
+
+            if (localStorage.getItem("tam_intro") == 0) {
+                document.getElementById("intro-audio").pause();
+                document.getElementById("intro-audio").currentTime = 0;
+            }
+            if (localStorage.getItem("tam_intro") == 1) {
+                document.getElementById("intro-audio").play();
+                localStorage.setItem("tam_intro", -1);
+            }
+
+        }, 500);
+
+        $(".start").click(function () {
+            localStorage.setItem("tam_intro", 1);
+            setTimeout(() => { $(".button2").css({ transform: 'translateX(150%)' }); }, 100);
+            setTimeout(() => { $(".button-stick2").css({ transform: 'translateX(-100%)' }); }, 300);
+            setTimeout(() => {
+                $(".loading-con").fadeOut(); $("iframe").fadeIn(0);
+            }, 700);
+        });
+
+        $(window).load(function () {
+            $(".loading").fadeOut(0); $(".start").css({ display: 'flex' });
+        });
+    </script>
+</body>
+
+</html>

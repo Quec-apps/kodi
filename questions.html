@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tam_Questions</title>
+    <script src="res/jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(res/font/Rubik-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            /* supported by Chrome and Opera */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+        }
+
+        .full {
+            width: 100vw;
+            height: 100vh;
+            animation: full 400ms ease 1;
+        }
+
+        @keyframes full {
+            0% {
+                transform: scale(1.2);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .top {
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+        }
+
+        .tam_coins {
+            margin-right: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tam_coins-img {
+            width: 8vw;
+            height: 8vw;
+        }
+
+        #tam_coins {
+            margin-left: 2vw;
+            font-size: 5.5vw;
+        }
+
+        .title {
+            padding-left: 3vw;
+            font-size: 9vw;
+            height: 8vh;
+        }
+
+        .ct-bg {
+            width: 100%;
+            height: 82vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow-y: scroll;
+        }
+
+        .ct {
+            width: 40vw;
+            height: 22vw;
+            border-radius: 10px;
+            border: solid 1vw #d5d7d5;
+            margin: 1.5vh 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ct:active {
+            transition: none;
+            opacity: .7;
+        }
+
+        .tick-bg {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: space-between;
+        }
+
+        .ct-img {
+            width: 10vw;
+            height: 10vw;
+            display: none;
+        }
+
+        .ct-img-lock {
+            width: 7vw;
+            height: 7vw;
+        }
+
+        .ct-txt {
+            width: 100%;
+            text-align: center;
+            font-size: 5vw;
+        }
+
+        .amt {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1vh;
+        }
+
+        .amt-img {
+            width: 5vw;
+            height: 5vw;
+            margin-right: 1vw;
+        }
+
+        .toast {
+            width: 90vw;
+            position: fixed;
+            top: 70vh;
+            left: 5vw;
+            padding: 1vh 0;
+            background-color: white;
+            border-radius: 10px;
+            color: black;
+            text-align: center;
+            font-size: 4vw;
+            transition: all 400ms ease;
+            display: none;
+            animation: toast 400ms ease 1;
+        }
+
+        @keyframes toast {
+            0% {
+                transform: scale(1.2);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="res/audio/click.mp3" id="click-audio"></audio>
+    <div class="full">
+        <div class="top">
+            <div class="tam_coins">
+                <img src="res/img/coins.png" class="tam_coins-img">
+                <div id="tam_coins">28</div>
+            </div>
+        </div>
+        <div class="title">Questions</div>
+        <!--a-->
+        <div class="ct-bg">
+            <div class="ct" id="tam_General">
+                <div class="tick-bg">
+                    <img src="res/img/tick.png" class="ct-img tam_General-img">
+                </div>
+                <div class="ct-txt">General</div>
+            </div>
+            <!--b-->
+            <div class="ct" id="tam_India">
+                <div class="tick-bg">
+                    <img src="res/img/tick.png" class="ct-img tam_India-img">
+                </div>
+                <div class="ct-txt">India</div>
+            </div>
+            <!--i-->
+            <div class="ct" id="tam_Tamil">
+                <div class="tick-bg">
+                    <img src="res/img/tick.png" class="ct-img tam_Tamil-img">
+                </div>
+                <div class="ct-txt">Tamil</div>
+            </div>
+            <!--f-->
+            <div class="ct" id="tam_Nature">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_Nature-lock">
+                    <div class="amt tam_Nature-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_Nature-img">
+                </div>
+                <div class="ct-txt">Nature & Animal</div>
+            </div>
+            <!--g-->
+            <div class="ct" id="tam_Science">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_Science-lock">
+                    <div class="amt tam_Science-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_Science-img">
+                </div>
+                <div class="ct-txt">Science</div>
+            </div>
+            <!--h-->
+            <div class="ct" id="tam_Sports">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_Sports-lock">
+                    <div class="amt tam_Sports-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_Sports-img">
+                </div>
+                <div class="ct-txt">Sports</div>
+            </div>
+            <!--i-->
+            <div class="ct" id="tam_Technology">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_Technology-lock">
+                    <div class="amt tam_Technology-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_Technology-img">
+                </div>
+                <div class="ct-txt">Technology</div>
+            </div>
+            <!--d-->
+            <div class="ct" id="tam_World">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_World-lock">
+                    <div class="amt tam_World-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_World-img">
+                </div>
+                <div class="ct-txt">World</div>
+            </div>
+            <!--c-->
+            <div class="ct" id="tam_Kerala">
+                <div class="tick-bg">
+                    <img src="res/img/lock.png" class="ct-img-lock tam_Kerala-lock">
+                    <div class="amt tam_Kerala-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+                    <img src="res/img/tick.png" class="ct-img tam_Kerala-img">
+                </div>
+                <div class="ct-txt">Kerala</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="toast"></div>
+    <script>
+        tam_coins = parseInt(localStorage.getItem("tam_coins"));
+        function ShowCoin() {
+            if (tam_coins >= 1000 && tam_coins < 1000000) {
+                $("#tam_coins").html((tam_coins / 1000).toFixed(2) + "K");
+            } else if (tam_coins >= 1000000) {
+                $("#tam_coins").html((tam_coins / 1000000).toFixed(3) + "M");
+            } else {
+                $("#tam_coins").html(tam_coins);
+            }
+        }
+        ShowCoin();
+
+        function Toast(toastStr) {
+            $(".toast").html(toastStr);
+            $(".toast").fadeIn(0);
+            setTimeout(() => { $(".toast").fadeOut(); }, 2000);
+        }
+
+        tam_Questions = JSON.parse(localStorage.tam_Questions);
+        quesCount = tam_Questions.length;
+
+        for (i = 0; i < tam_Questions.length; i++) {
+            $("." + tam_Questions[i] + "-img").fadeIn(0);
+        }
+
+        fulltam_Questions = ["tam_General", "tam_World", "tam_India", "tam_Tamil", "tam_Science", "tam_Sports", "tam_Nature", "tam_Technology","tam_Kerala"];
+        for (x = 0; x < fulltam_Questions.length; x++) {
+            console.log(localStorage.getItem(fulltam_Questions[x]));
+            if (localStorage.getItem(fulltam_Questions[x]) == 1) {
+                $("." + fulltam_Questions[x] + "-lock").fadeOut(0);
+                $("." + fulltam_Questions[x] + "-con").fadeOut(0);
+            }
+        }
+
+
+        $(".ct").click(function () {
+            document.getElementById("click-audio").play();
+
+            tmpVar = $(this).attr('id');
+            console.log("Id issssssssssss " + tmpVar);
+            if (localStorage.getItem(tmpVar) == 1) { // 1 means bought for tam_coins
+                CheckSelect(tmpVar);
+            } else {
+                if (tam_coins >= 200000000) {
+                    tam_coins -= 200000000; localStorage.setItem("tam_coins", tam_coins);
+                    ShowCoin();
+                    localStorage.setItem(tmpVar, 1);
+                    AddString(tmpVar);
+                } else { Toast("No enough coins to buy"); }
+            }
+        });
+
+        function CheckSelect(str) {
+            console.log(str);
+            console.log(tam_Questions.length);
+            tmpBool = false;
+            for (i = 0; i < tam_Questions.length; i++) {
+                console.log(i);
+                if (tam_Questions[i] == str) {
+                    //string already present in array
+                    console.log("string already present in array");
+                    tmpBool = true;
+                    if (quesCount > 2) {
+                        tam_Questions.splice(tam_Questions.indexOf(str), 1);
+                        localStorage.tam_Questions = JSON.stringify(tam_Questions);
+                        $(".ct-img").css({ visibility: 'visible' });
+                        $("." + str + "-img").fadeOut(0); $("." + str + "-img").css({ visibility: 'visible' });
+                        quesCount = tam_Questions.length;
+                    } else {
+                        Toast("Minimum 2 have to select");
+                    }
+
+                }
+                if (i == (tam_Questions.length - 1) && !tmpBool) {
+                    //Add string to array
+                    console.log("Add string to array");
+                    AddString(str);
+                    return;
+                }
+            }
+        }
+
+        function AddString(str) {
+            str = str;
+            tam_Questions.push(str);
+            console.log(tam_Questions);
+            localStorage.tam_Questions = JSON.stringify(tam_Questions);
+            $("." + str + "-lock").fadeOut(0);
+            $("." + str + "-con").fadeOut(0); $("." + str + "-img").fadeIn(0); $("." + str + "-img").css({ visibility: 'visible' });
+            quesCount = tam_Questions.length;
+        }
+    </script>
+</body>
+
+</html>

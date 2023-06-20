@@ -1,0 +1,650 @@
+What is the capital of France?
+a) Paris
+b) Berlin
+c) Madrid
+d) Rome
+Answer: 1
+
+Who painted the famous artwork, The Starry Night?
+a) Pablo Picasso
+b) Vincent van Gogh
+c) Salvador Dali
+d) Claude Monet
+Answer: 2
+
+Who wrote the novel, To Kill a Mockingbird?
+a) Ernest Hemingway
+b) Harper Lee
+c) Mark Twain
+d) William Faulkner
+Answer: 2
+
+Who was the first man on the moon?
+a) Neil Armstrong
+b) Buzz Aldrin
+c) Michael Collins
+d) John Glenn
+Answer: 1
+
+Who invented the telephone?
+a) Alexander Graham Bell
+b) Thomas Edison
+c) Nikola Tesla
+d) Marconi
+Answer: 1
+
+Who wrote the Harry Potter series?
+a) J.K. Rowling
+b) Stephenie Meyer
+c) Veronica Roth
+d) Suzanne Collins
+Answer: 1
+
+Who wrote the book, 1984?
+a) George Orwell
+b) Aldous Huxley
+c) Ray Bradbury
+d) Isaac Asimov
+Answer: 1
+
+Who played the character of Indiana Jones in the film series?
+a) Tom Cruise
+b) Harrison Ford
+c) Sean Connery
+d) Michael J. Fox
+Answer: 2
+
+Who was the leader of Nazi Germany during World War II?
+a) Winston Churchill
+b) Joseph Stalin
+c) Franklin D. Roosevelt
+d) Adolf Hitler
+Answer: 4
+
+What is the largest ocean in the world?
+a) Atlantic Ocean
+b) Pacific Ocean
+c) Indian Ocean
+d) Southern Ocean
+Answer: 2
+
+Who composed the famous opera, La Traviata?
+a) Ludwig van Beethoven
+b) Wolfgang Amadeus Mozart
+c) Giuseppe Verdi
+d) Richard Wagner
+Answer: 3
+
+Who was the first president of the United States?
+a) George Washington
+b) Thomas Jefferson
+c) Abraham Lincoln
+d) Theodore Roosevelt
+Answer: 1
+
+What is the currency used in Japan?
+a) Dollar
+b) Euro
+c) Yen
+d) Pound
+Answer: 3
+
+Who wrote the play, Romeo and Juliet?
+a) William Shakespeare
+b) Charles Dickens
+c) Jane Austen
+d) Edgar Allan Poe
+Answer: 1
+
+What is the capital of Australia?
+a) Sydney
+b) Melbourne
+c) Brisbane
+d) Canberra
+Answer: 4
+
+Who wrote the famous novel, Pride and Prejudice?
+a) Jane Austen
+b) Charlotte Bronte
+c) Emily Bronte
+d) Lewis Carroll
+Answer: 1
+
+Who was the first female prime minister of the United Kingdom?
+a) Margaret Thatcher
+b) Theresa May
+c) Tony Blair
+d) Gordon Brown
+Answer: 1
+
+Who played the role of James Bond in the film series?
+a) Sean Connery
+b) Roger Moore
+c) Pierce Brosnan
+d) Daniel Craig
+Answer: 4
+
+What is the capital of China?
+a) Beijing
+b) Shanghai
+c) Hong Kong
+d) Taipei
+Answer: 1
+
+Who composed the famous piece, Moonlight Sonata?
+a) Ludwig van Beethoven
+b) Wolfgang Amadeus Mozart
+c) Giuseppe Verdi
+d) Richard Wagner
+Answer: 1
+
+Who wrote the famous play, Hamlet?
+a) William Shakespeare
+b) Charles Dickens
+c) Jane Austen
+d) Edgar Allan Poe
+Answer: 1
+
+What is the capital of Brazil?
+a) Rio de Janeiro
+b) Sao Paulo
+c) Brasilia
+d) Salvador
+Answer: 3
+
+Who played the character of Frodo Baggins in the Lord of the Rings film trilogy?
+a) Elijah Wood
+b) Ian McKellen
+c) Viggo Mortensen
+d) Sean Bean
+Answer: 1
+
+Who wrote the famous novel, War and Peace?
+a) Fyodor Dostoevsky
+b) Leo Tolstoy
+c) Ivan Turgenev
+d) Anton Chekhov
+Answer: 2
+
+Who wrote the book, To the Lighthouse?
+a) Virginia Woolf
+b) Jane Austen
+c) George Eliot
+d) Charlotte Bronte
+Answer: 1
+
+Who played the role of Sherlock Holmes in the film series?
+a) Robert Downey Jr.
+b) Benedict Cumberbatch
+c) Jeremy Brett
+d) Ian McKellen
+Answer: 1
+
+Who wrote the famous play, A Midsummer Night’s Dream?
+a) William Shakespeare
+b) Charles Dickens
+c) Jane Austen
+d) Edgar Allan Poe
+Answer: 1
+
+What is the capital of Russia?
+a) Moscow
+b) St. Petersburg
+c) Kazan
+d) Novosibirsk
+Answer: 1
+
+Who wrote the famous novel, Wuthering Heights?
+a) Emily Bronte
+b) Charlotte Bronte
+c) Jane Austen
+d) Louisa May Alcott
+Answer: 1
+
+What is the capital of Mexico?
+a) Mexico City
+b) Guadalajara
+c) Monterrey
+d) Tijuana
+Answer: 1
+
+Who wrote the famous novel, Les Miserables?
+a) Victor Hugo
+b) Alexandre Dumas
+c) Gustave Flaubert
+d) Emile Zola
+Answer: 1
+
+Who played the character of Katniss Everdeen in the Hunger Games film series?
+a) Jennifer Lawrence
+b) Emma Watson
+c) Shailene Woodley
+d) Dakota Fanning
+Answer: 1
+
+Who wrote the famous play, The Importance of Being Earnest?
+a) Oscar Wilde
+b) William Shakespeare
+c) Jane Austen
+d) George Bernard Shaw
+Answer: 1
+
+Who wrote the famous novel, The Great Gatsby?
+a) Ernest Hemingway
+b) F. Scott Fitzgerald
+c) John Steinbeck
+d) William Faulkner
+Answer: 2
+
+What is the capital of Australia?
+a) Sydney
+b) Melbourne
+c) Brisbane
+d) Canberra
+Answer: 4
+
+Who played the character of Indiana Jones in the film series?
+a) Harrison Ford
+b) Sean Connery
+c) Tom Cruise
+d) Daniel Craig
+Answer: 1
+
+Who wrote the famous novel, To Kill a Mockingbird?
+a) Harper Lee
+b) Toni Morrison
+c) Alice Walker
+d) Zora Neale Hurston
+Answer: 1
+
+Who played the character of James Bond in the film series?
+a) Sean Connery
+b) Roger Moore
+c) Pierce Brosnan
+d) Daniel Craig
+Answer: 4
+
+Who wrote the famous novel, The Catcher in the Rye?
+a) J.D. Salinger
+b) Ernest Hemingway
+c) F. Scott Fitzgerald
+d) William Faulkner
+Answer: 1
+
+Who wrote the famous novel, One Hundred Years of Solitude?
+a) Gabriel Garcia Marquez
+b) Pablo Neruda
+c) Octavio Paz
+d) Jorge Luis Borges
+Answer: 1
+
+Who played the character of Iron Man in the Marvel Cinematic Universe?
+a) Robert Downey Jr.
+b) Chris Evans
+c) Chris Hemsworth
+d) Mark Ruffalo
+Answer: 1
+
+Who wrote the famous novel, 1984?
+a) George Orwell
+b) Aldous Huxley
+c) Ray Bradbury
+d) Philip K. Dick
+Answer: 1
+
+Who wrote the famous play, A Doll’s House?
+a) Henrik Ibsen
+b) August Strindberg
+c) August Wilson
+d) Harold Pinter
+Answer: 1
+
+What is the capital of Italy?
+a) Rome
+b) Milan
+c) Florence
+d) Venice
+Answer: 1
+
+Who wrote the famous novel, Little Women?
+a) Louisa May Alcott
+b) Jane Austen
+c) Charlotte Bronte
+d) Emily Bronte
+Answer: 1
+
+Who played the character of Harry Potter in the film series?
+a) Daniel Radcliffe
+b) Emma Watson
+c) Rupert Grint
+d) Tom Felton
+Answer: 1
+
+Who wrote the famous play, Death of a Salesman?
+a) Arthur Miller
+b) Tennessee Williams
+c) Edward Albee
+d) August Wilson
+Answer: 1
+
+Who wrote the famous novel, The Hitchhiker’s Guide to the Galaxy?
+a) Douglas Adams
+b) Terry Pratchett
+c) J.K. Rowling
+d) Philip K. Dick
+Answer: 1
+
+Who played the character of Jack Sparrow in the Pirates of the Caribbean film series?
+a) Johnny Depp
+b) Orlando Bloom
+c) Keira Knightley
+d) Geoffrey Rush
+Answer: 1
+
+Who wrote the famous novel, To the Lighthouse?
+a) Virginia Woolf
+b) Jane Austen
+c) Charlotte Bronte
+d) Emily Bronte
+Answer: 1
+
+Who played the character of Batman in the film series?
+a) Michael Keaton
+b) Val Kilmer
+c) George Clooney
+d) Christian Bale
+Answer: 4
+
+Who wrote the famous novel, The Grapes of Wrath?
+a) John Steinbeck
+b) Ernest Hemingway
+c) F. Scott Fitzgerald
+d) William Faulkner
+Answer: 1
+
+What is the capital of Spain?
+a) Barcelona
+b) Madrid
+c) Valencia
+d) Seville
+Answer: 2
+
+Who wrote the famous play, A Streetcar Named Desire?
+a) Tennessee Williams
+b) Arthur Miller
+c) Edward Albee
+d) August Wilson
+Answer: 1
+
+Who played the character of Thor in the Marvel Cinematic Universe?
+a) Chris Hemsworth
+b) Tom Hiddleston
+c) Chris Evans
+d) Robert Downey Jr.
+Answer: 1
+
+Who wrote the famous novel, Wuthering Heights?
+a) Jane Austen
+b) Charlotte Bronte
+c) Emily Bronte
+d) Anne Bronte
+Answer: 3
+
+Who wrote the famous play, The Crucible?
+a) Arthur Miller
+b) Tennessee Williams
+c) Edward Albee
+d) August Wilson
+Answer: 1
+
+Who wrote the famous novel, The Picture of Dorian Gray?
+a) Oscar Wilde
+b) William Shakespeare
+c) Jane Austen
+d) George Bernard Shaw
+Answer: 1
+
+Who played the character of The Joker in the film series?
+a) Jack Nicholson
+b) Heath Ledger
+c) Joaquin Phoenix
+d) Mark Hamill
+Answer: 2
+
+Who wrote the famous novel, Brave New World?
+a) Aldous Huxley
+b) George Orwell
+c) Ray Bradbury
+d) Philip K. Dick
+Answer: 1
+
+Who played the character of Wonder Woman in the film series?
+a) Gal Gadot
+b) Lynda Carter
+c) Adrianne Palicki
+d) Nicola Scott
+Answer: 1
+
+Who wrote the famous play, The Glass Menagerie?
+a) Tennessee Williams
+b) Arthur Miller
+c) Edward Albee
+d) August Wilson
+Answer: 1
+
+What is the capital of France?
+a) Paris
+b) Marseille
+c) Lyon
+d) Toulouse
+Answer: 1
+
+Who wrote the famous novel, The Lord of the Rings?
+a) J.R.R. Tolkien
+b) J.K. Rowling
+c) George R.R. Martin
+d) Philip Pullman
+Answer: 1
+
+Who played the character of Neo in The Matrix film series?
+a) Keanu Reeves
+b) Laurence Fishburne
+c) Hugo Weaving
+d) Carrie-Anne Moss
+Answer: 1
+
+Who wrote the famous novel, Jane Eyre?
+a) Charlotte Bronte
+b) Jane Austen
+c) Emily Bronte
+d) Anne Bronte
+Answer: 1
+
+Who played the character of Hannibal Lecter in the film series?
+a) Anthony Hopkins
+b) Brian Cox
+c) Mads Mikkelsen
+d) Laurence Fishburne
+Answer: 1
+
+Who wrote the famous novel, To Kill a Mockingbird?
+a) Harper Lee
+b) William Faulkner
+c) Ernest Hemingway
+d) John Steinbeck
+Answer: 1
+
+Who played the character of Spider-Man in the film series?
+a) Tobey Maguire
+b) Andrew Garfield
+c) Tom Holland
+d) Miles Morales
+Answer: 3
+
+Who wrote the famous play, Death of a Salesman?
+a) Tennessee Williams
+b) Arthur Miller
+c) Edward Albee
+d) August Wilson
+Answer: 2
+
+Who played the character of Indiana Jones in the film series?
+a) Harrison Ford
+b) Sean Connery
+c) Shia LaBeouf
+d) River Phoenix
+Answer: 1
+
+Who wrote the famous novel, The Great Gatsby?
+a) F. Scott Fitzgerald
+b) Ernest Hemingway
+c) William Faulkner
+d) John Steinbeck
+Answer: 1
+
+Who played the character of Iron Man in the Marvel Cinematic Universe?
+a) Robert Downey Jr.
+b) Don Cheadle
+c) Jon Favreau
+d) Gwyneth Paltrow
+Answer: 1
+
+Who wrote the famous novel, Heart of Darkness?
+a) Joseph Conrad
+b) Charles Dickens
+c) Jane Austen
+d) William Faulkner
+Answer: 1
+
+Who played the character of Dr. John Watson in the Sherlock Holmes film series?
+a) Robert Downey Jr.
+b) Jude Law
+c) Martin Freeman
+d) Benedict Cumberbatch
+Answer: 2
+
+Who wrote the famous play, A Raisin in the Sun?
+a) August Wilson
+b) Tennessee Williams
+c) Arthur Miller
+d) Edward Albee
+Answer: 1
+
+Who played the character of James Bond in the film series?
+a) Sean Connery
+b) Roger Moore
+c) Pierce Brosnan
+d) Daniel Craig
+Answer: 4
+
+Who wrote the famous novel, The Hitchhiker's Guide to the Galaxy?
+a) Douglas Adams
+b) Terry Pratchett
+c) J.R.R. Tolkien
+d) George R.R. Martin
+Answer: 1
+
+Who played the character of Harry Potter in the film series?
+a) Rupert Grint
+b) Daniel Radcliffe
+c) Emma Watson
+d) Bonnie Wright
+Answer: 2
+
+Who wrote the famous play, The Importance of Being Earnest?
+a) Oscar Wilde
+b) William Shakespeare
+c) Jane Austen
+d) George Bernard Shaw
+Answer: 1
+
+Who played the character of Black Widow in the Marvel Cinematic Universe?
+a) Scarlett Johansson
+b) Natasha Romanoff
+c) Cobie Smulders
+d) Emily VanCamp
+Answer: 1
+
+Who wrote the famous novel, The Catcher in the Rye?
+a) J.D. Salinger
+b) Ernest Hemingway
+c) F. Scott Fitzgerald
+d) William Faulkner
+Answer: 1
+
+Who played the character of Batman in the Christopher Nolan film series?
+a) Michael Keaton
+b) Val Kilmer
+c) Christian Bale
+d) George Clooney
+Answer: 3
+
+Who wrote the famous play, Long Day's Journey into Night?
+a) Eugene O'Neill
+b) Tennessee Williams
+c) Arthur Miller
+d) Edward Albee
+Answer: 1
+
+Who played the character of The Joker in the Christopher Nolan film series?
+a) Jack Nicholson
+b) Heath Ledger
+c) Mark Hamill
+d) Jared Leto
+Answer: 2
+
+Who wrote the famous novel, Animal Farm?
+a) George Orwell
+b) Aldous Huxley
+c) William Golding
+d) George R.R. Martin
+Answer: 1
+
+Who played the character of Wonder Woman in the film series?
+a) Gal Gadot
+b) Lynda Carter
+c) Adrianne Palicki
+d) Connie Nielsen
+Answer: 1
+
+Who wrote the famous play, A Streetcar Named Desire?
+a) Tennessee Williams
+b) Arthur Miller
+c) Edward Albee
+d) August Wilson
+Answer: 1
+
+Who played the character of Thor in the Marvel Cinematic Universe?
+a) Chris Hemsworth
+b) Tom Hiddleston
+c) Idris Elba
+d) Anthony Hopkins
+Answer: 1
+
+Who wrote the famous novel, One Hundred Years of Solitude?
+a) Gabriel Garcia Marquez
+b) Jorge Luis Borges
+c) Octavio Paz
+d) Mario Vargas Llosa
+Answer: 1
+
+Who played the character of Magneto in the X-Men film series?
+a) Ian McKellen
+b) Michael Fassbender
+c) Jennifer Lawrence
+d) James McAvoy
+Answer: 1
+
+Who wrote the famous play, Macbeth?
+a) William Shakespeare
+b) George Bernard Shaw
+c) Oscar Wilde
+d) Charles Dickens
+Answer: 1
+
+Who played the character of The &#39;Terminator&#39; in the film series?
+a) Arnold Schwarzenegger
+b) Linda Hamilton
+c) Edward Furlong
+d) Robert Patrick
+Answer: 1

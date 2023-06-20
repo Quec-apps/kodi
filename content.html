@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content</title>
+    <script src="res/jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(res/font/Rubik-Medium.ttf);
+        }
+
+        @font-face {
+            font-family: BalooChettan;
+            src: url(res/font/BalooChettan2-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            /* supported by Chrome and Opera */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+        }
+
+        .top {
+            width: 100vw;
+            height: 40vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .level-bg {
+            width: 35vw;
+            margin-left: 2vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            animation: g-o 400ms ease 1;
+        }
+
+        .level-ct-bg {
+            width: 28vw;
+            display: flex;
+            margin-top: .5vh;
+        }
+
+        .tri {
+            width: 1.3vw;
+            height: 1.3vw;
+            border: solid .7vw #d5d7d5;
+            transform: rotate(45deg);
+            margin-right: 1vw;
+        }
+
+        .lev-txt {
+            width: 4vw;
+            margin-left: 1vw;
+            font-size: 3vw;
+        }
+
+        .logo-img {
+            width: 30vw;
+            height: 30vw;
+            position: absolute;
+            top: 40%;
+            left: 37vw;
+            animation: g-o 400ms ease 1;
+        }
+
+        .hint-bg {
+            width: 70vw;
+            height: 10vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 28vw;
+            animation: g-o 400ms ease 1;
+        }
+
+        .hint-img {
+            width: 18vw;
+            height: 18vw;
+        }
+
+        .hint-img:active {
+            transition: none;
+            transform: scale(.95);
+        }
+
+        .translate-img {
+            width: 12vw;
+            height: 12vw;
+        }
+
+        .translate-img:active {
+            opacity: .5;
+        }
+
+        .ques-bg {
+            width: 100vw;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .stick {
+            width: 100vw;
+            height: .5vh;
+            background-color: #d5d7d5;
+            position: absolute;
+            top: 47.2%;
+            left: 0;
+            z-index: 0;
+            animation: stick 400ms ease 1;
+            transition: all 300ms ease;
+        }
+
+        @keyframes stick {
+            0% {
+                transform: translate(100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .ques-txt {
+            width: 86vw;
+            padding: 2vh 3vw;
+            background-image: url(res/img/ques-bg.png);
+            background-size: 100% 100%;
+            text-align: center;
+            z-index: 1;
+            font-size: 4vw;
+            animation: ques-txt 400ms ease 1;
+            transition: transform 300ms ease;
+        }
+
+        @keyframes ques-txt {
+            0% {
+                transform: translate(-100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .timer-bg {
+            width: 100vw;
+            height: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-bg,
+        .right-bg {
+            width: 0;
+            height: .5vh;
+            background-color: #d5d7d5;
+            border-radius: 10px;
+            animation: timer 20s linear 1;
+        }
+
+        @keyframes timer {
+            0% {
+                width: 30vw;
+            }
+
+            100% {
+                width: 0vw;
+            }
+        }
+
+        .timer {
+            width: 7vh;
+            height: 7vh;
+            border-radius: 50%;
+            background-color: #11131d;
+            border: solid 1vw #d5d7d5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ans-bg {
+            width: 100vw;
+            height: 37vh;
+        }
+
+        .ans-bg1,
+        .ans-bg2 {
+            width: 100vw;
+            height: 15vh;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .ans-txt {
+            width: 43vw;
+            padding: 2vh 2vw;
+            background-image: url(res/img/button-bg.png);
+            background-size: 100% 100%;
+            text-align: center;
+            z-index: 1;
+            font-size: 4vw;
+            animation: ans-txt 400ms ease 1;
+            transition: transform 300ms ease;
+        }
+
+        @keyframes ans-txt {
+            0% {
+                transform: translate(-100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .ans-txt:active {
+            transition: none;
+            transform: scale(.96);
+        }
+
+        .hint-ct-bg {
+            width: 80vw;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 7vh;
+            z-index: 5;
+        }
+
+        .hint3-bg {
+            width: 100%;
+            height: 18vh;
+            visibility: hidden;
+            border-radius: 10px;
+            background-color: #403680;
+        }
+
+        .hint3-top {
+            width: 100%;
+            height: 14vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .hint3-top-ct {
+            width: 3vw;
+            height: 11vh;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .hint3-btm {
+            width: 100%;
+            height: 3vh;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .fill {
+            width: 100%;
+            border-radius: 3px;
+            background-color: #d7934f;
+        }
+
+        .hint2-bg {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            visibility: hidden;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2vh;
+            z-index: 5;
+            border-radius: 10px;
+            background-color: #403680;
+        }
+
+        .test-correct {
+            background-image: url(res/img/button-green.png);
+        }
+
+        .test-wrong {
+            background-image: url(res/img/button-red.png);
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="res/audio/win.mp3" id="win-audio"></audio>
+    <audio src="res/audio/lose.mp3" id="lose-audio"></audio>
+    <audio src="res/audio/intro.mp3" id="intro-audio"></audio>
+    <audio src="res/audio/hint.mp3" id="hint-audio"></audio>
+    <audio src="res/audio/click.mp3" id="click-audio"></audio>
+    <div class="test-correct"></div>
+    <div class="test-wrong"></div>
+
+    <div class="top">
+        <div class="level-bg"></div>
+        <img src="res/img/logo.png" class="logo-img">
+        <div class="hint-bg">
+            <img src="res/img/translate.png" class="translate-img">
+            <img src="res/img/hint1.png" class="hint-img hint1">
+            <img src="res/img/hint2.png" class="hint-img hint2">
+            <img src="res/img/hint3.png" class="hint-img hint3">
+        </div>
+
+        <div class="hint-ct-bg">
+
+            <div class="hint3-bg">
+                <div class="hint3-top">
+                    <div class="hint3-top-ct">
+                        <div class="fill fill1"></div>
+                    </div>
+                    <div class="hint3-top-ct">
+                        <div class="fill fill2"></div>
+                    </div>
+                    <div class="hint3-top-ct">
+                        <div class="fill fill3"></div>
+                    </div>
+                    <div class="hint3-top-ct">
+                        <div class="fill fill4"></div>
+                    </div>
+                </div>
+                <div class="hint3-btm">
+                    <div class="hint3-btm-ct">A</div>
+                    <div class="hint3-btm-ct">B</div>
+                    <div class="hint3-btm-ct">C</div>
+                    <div class="hint3-btm-ct">D</div>
+                </div>
+            </div>
+
+            <div class="hint2-bg">
+                I think the answer is "<span id="letter"></span>"
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="ques-bg">
+        <div class="stick"></div>
+        <div class="ques-txt"></div>
+    </div>
+
+    <div class="timer-bg">
+        <div class="left-bg"></div>
+        <div class="timer">20</div>
+        <div class="right-bg"></div>
+    </div>
+
+    <div class="ans-bg">
+        <div class="ans-bg1">
+            <div class="stick"></div>
+            <div class="ans-txt txtA txt1"></div>
+            <div class="ans-txt txtB txt2"></div>
+        </div>
+        <div class="ans-bg2">
+            <div class="stick"></div>
+            <div class="ans-txt txtC txt3"></div>
+            <div class="ans-txt txtD txt4"></div>
+        </div>
+    </div>
+
+    <style>
+        .game-over-con {
+            width: 100vw;
+            height: 100vh;
+            background-image: radial-gradient(#23105f, #010d37);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            justify-content: center;
+            display: none;
+            flex-wrap: wrap;
+            align-content: space-around;
+            animation: g-o 500ms ease 1;
+            transition: all 400ms ease;
+        }
+
+        @keyframes g-o {
+            0% {
+                transform: scale(1.2);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .g-o-logo {
+            width: 30vw;
+            height: 30vw;
+        }
+
+        .congrats {
+            width: 100vw;
+            font-size: 12vw;
+            text-align: center;
+        }
+
+        .got-txt {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            font-size: 8vw;
+            justify-content: center;
+        }
+
+        .reward-bg {
+            display: flex;
+            padding-left: 1vw;
+            color: #00e800;
+            font-size: 9vw;
+        }
+
+        .reward-coin {
+            width: 8vw;
+            height: 8vw;
+            margin-left: 2vw;
+        }
+
+        .btn-bg {
+            width: 100vw;
+            height: 30vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .btn {
+            width: 30vw;
+            height: 30vw;
+        }
+
+        .btn:active {
+            transition: none;
+            transform: scale(.95);
+        }
+
+        #let {
+            color: #d7934f;
+        }
+
+        .pricebg {
+            display: flex;
+        }
+
+        .pricebg5,
+        .pricebg10,
+        .pricebg15 {
+            color: #00ff00;
+        }
+
+        .price-img {
+            width: 3vw;
+            height: 3vw;
+        }
+
+        .price-txt {
+            font-size: 2.5vw;
+        }
+    </style>
+    <div class="game-over-con">
+        <img src="res/img/logo.png" class="g-o-logo">
+
+        <div class="congrats">Congratulation</div>
+        <div class="got-txt">
+            <div class="reward-bg"> + <div id="reward">0</div>
+            </div><img src="res/img/coins.png" class="reward-coin">
+        </div>
+        <div class="btn-bg">
+            <img src="res/img/retry.png" class="btn retry">
+            <img src="res/img/home.png" class="btn home">
+        </div>
+    </div>
+
+    <!--a-->
+    <script src="res/var/General/hard.js"></script>
+    <script src="res/var/General/easy.js"></script>
+    <!--b-->
+    <script src="res/var/India/easy.js"></script>
+    <script src="res/var/India/hard.js"></script>
+    <!--c-->
+    <script src="res/var/Kerala/easy.js"></script>
+    <script src="res/var/Kerala/hard.js"></script>
+    <!--d-->
+    <script src="res/var/World/easy.js"></script>
+    <script src="res/var/World/hard.js"></script>
+    <!--f-->
+    <script src="res/var/Nature/easy.js"></script>
+    <script src="res/var/Nature/hard.js"></script>
+    <!--g-->
+    <script src="res/var/Science/easy.js"></script>
+    <script src="res/var/Science/hard.js"></script>
+    <!--h-->
+    <script src="res/var/Sports/easy.js"></script>
+    <script src="res/var/Sports/hard.js"></script>
+    <!--i-->
+    <script src="res/var/Technology/easy.js"></script>
+    <script src="res/var/Technology/hard.js"></script>
+    <!--j-->
+    <script src="res/var/Tamil/easy.js"></script>
+    <script src="res/var/Tamil/hard.js"></script>
+
+    <script>
+
+        if (localStorage.getItem("tam_inter") == null) {
+            tam_inter = 0; localStorage.setItem("tam_inter", 0);
+        } else { tam_inter = localStorage.getItem("tam_inter"); }
+
+        function checkNumber(i) {
+            if (i == 1)
+                tmpAmt = "1000";
+            if (i == 2)
+                tmpAmt = "2000";
+            if (i == 3)
+                tmpAmt = "3000";
+            if (i == 4)
+                tmpAmt = "5000";
+            if (i == 5)
+                tmpAmt = "10,000";
+            if (i == 6)
+                tmpAmt = "20,000";
+            if (i == 7)
+                tmpAmt = "40,000";
+            if (i == 8)
+                tmpAmt = "80,000";
+            if (i == 9)
+                tmpAmt = "1,60,000";
+            if (i == 10)
+                tmpAmt = "3,20,000";
+            if (i == 11)
+                tmpAmt = "6,40,000";
+            if (i == 12)
+                tmpAmt = "12,50,000";
+            if (i == 13)
+                tmpAmt = "25,00,000";
+            if (i == 14)
+                tmpAmt = "50,00,000";
+            if (i == 15)
+                tmpAmt = "1,00,00,000";
+        }
+
+
+        for (let i = 1; i <= 15; i++) {
+
+            checkNumber(i);
+            $(".level-bg").prepend(`
+<div class="level-ct-bg">
+    <div class="tri tri${i}"></div>
+    <div class="lev-txt lev-txt${i}">${i}</div>
+    <div class="pricebg pricebg${i}">
+        <img src="res/img/coins.png" class="price-img">
+        <div class="price-txt">${tmpAmt}</div>
+    </div>
+</div>
+`);
+        }
+
+        arrayVar = [0];
+
+        $(window).load(function () {
+            allFunction();
+        });
+
+        function allFunction() {
+            level = 1;
+
+            lang = localStorage.lang;
+            tam_total_answers = localStorage.tam_total_answers;
+            tam_correct_answers = localStorage.tam_correct_answers;
+            tam_wrong_answers = localStorage.tam_wrong_answers;
+            tam_games_played = localStorage.tam_games_played;
+            tam_games_won = localStorage.tam_games_won;
+            tam_Questions = JSON.parse(localStorage.tam_Questions);
+
+            function maFunction() {
+                $(".ques-txt").css({ fontSize: '3.5vw', fontFamily: 'BalooChettan' });
+            }
+            function enFunction() {
+                $(".ques-txt").css({ fontSize: '4vw', fontFamily: 'inherit' });
+            }
+
+            if (lang == "en") {
+                enFunction();
+            } else {
+                maFunction();
+            }
+
+            function checkType() {
+
+                tmpCount = Math.floor(Math.random() * tam_Questions.length);
+                type = tam_Questions[tmpCount];
+                console.log("Type is " + type);
+                if (type == "tam_General")
+                    ques = "a";
+                if (type == "tam_India")
+                    ques = "b";
+                if (type == "tam_Kerala")
+                    ques = "c";
+                if (type == "tam_World")
+                    ques = "d";
+                if (type == "tam_Nature")
+                    ques = "f";
+                if (type == "tam_Science")
+                    ques = "g";
+                if (type == "tam_Sports")
+                    ques = "h";
+                if (type == "tam_Technology")
+                    ques = "i";
+                if (type == "tam_Tamil")
+                    ques = "j";
+
+            }
+
+            function checkRepeat() {
+                checkType();
+                if (level <= 5) {
+                    shuffleVar = Math.floor(Math.random() * window[ques + "_eTotal"] + 1);
+                } else {
+                    shuffleVar = Math.floor(Math.random() * window[ques + "_hTotal"] + 1);
+                }
+                appendBool = true;
+                for (let i = 0; i <= (arrayVar.length - 1); i++) {
+                    if (shuffleVar == arrayVar[i]) {
+                        checkRepeat();
+                        console.log("repeated");
+                        appendBool = false;
+                        break;
+                    }
+                    if ((arrayVar.length - 1) == i) {
+                        if (appendBool) {
+                            arrayVar.push(shuffleVar);
+                            apppendAll();
+                            break;
+                        }
+                    }
+                }
+            }
+            checkRepeat();
+
+
+
+            function apppendAll() {
+
+                $(".tri").css({ borderColor: "#d5d7d5" }); $(".tri" + level).css({ borderColor: '#d7934f' });
+                $(".lev-txt").css({ color: '#d5d7d5' }); $(".lev-txt" + level).css({ color: '#d7934f' });
+
+                if (level <= 5) {
+                    $(".ques-txt").html(window[ques + "-e-q-" + lang + shuffleVar]);
+                    $(".txtA").html("<span id='let'>A. </span>" + window[ques + "-e-A" + shuffleVar]);
+                    $(".txtB").html("<span id='let'>B. </span>" + window[ques + "-e-B" + shuffleVar]);
+                    $(".txtC").html("<span id='let'>C. </span>" + window[ques + "-e-C" + shuffleVar]);
+                    $(".txtD").html("<span id='let'>D. </span>" + window[ques + "-e-D" + shuffleVar]);
+                    Ans = window[ques + "-e-ans" + shuffleVar];
+                } else {
+                    $(".ques-txt").html(window[ques + "-h-q-" + lang + shuffleVar]);
+                    $(".txtA").html("<span id='let'>A. </span> " + window[ques + "-h-A" + shuffleVar]);
+                    $(".txtB").html("<span id='let'>B. </span> " + window[ques + "-h-B" + shuffleVar]);
+                    $(".txtC").html("<span id='let'>C. </span> " + window[ques + "-h-C" + shuffleVar]);
+                    $(".txtD").html("<span id='let'>D. </span> " + window[ques + "-h-D" + shuffleVar]);
+                    Ans = window[ques + "-h-ans" + shuffleVar];
+                }
+                console.log("Ans is " + Ans);
+
+                Correct = false; Action = true;
+                $(".txt" + Ans).click(function () {
+                    if (Action) {
+                        Correct = true;
+                        tam_correct_answers++; localStorage.tam_correct_answers = tam_correct_answers;
+                    }
+                });
+
+                function winAudio() {
+                    if (Action) {
+                        document.getElementById("win-audio").play();
+                    }
+                }
+                function loseAudio() {
+                    if (Action) {
+                        document.getElementById("lose-audio").play();
+                    }
+                }
+
+                if (Ans == 1) {
+                    $("#letter").html("A");
+                    $(".fill1").css({ height: '70%' });
+                    tmp = Math.floor(Math.random() * 60 + 1); $(".fill2").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 60 + 1); $(".fill3").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 60 + 1); $(".fill4").css({ height: tmp + '%' });
+
+                    $(".txt1").click(function () { winAudio(); });
+                    $(".txt2, .txt3, .txt4").click(function () { loseAudio(); });
+                }
+                if (Ans == 2) {
+                    $("#letter").html("B");
+                    tmp = Math.floor(Math.random() * 70 + 1); $(".fill1").css({ height: tmp + '%' });
+                    $(".fill2").css({ height: '80%' });
+                    tmp = Math.floor(Math.random() * 70 + 1); $(".fill3").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 70 + 1); $(".fill4").css({ height: tmp + '%' });
+
+                    $(".txt2").click(function () { winAudio(); });
+                    $(".txt1, .txt3, .txt4").click(function () { loseAudio(); });
+                }
+                if (Ans == 3) {
+                    $("#letter").html("C");
+                    tmp = Math.floor(Math.random() * 80 + 1); $(".fill1").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 80 + 1); $(".fill2").css({ height: tmp + '%' });
+                    $(".fill3").css({ height: '90%' });
+                    tmp = Math.floor(Math.random() * 80 + 1); $(".fill4").css({ height: tmp + '%' });
+
+                    $(".txt3").click(function () { winAudio(); });
+                    $(".txt2, .txt1, .txt4").click(function () { loseAudio(); });
+                }
+                if (Ans == 4) {
+                    $("#letter").html("D");
+                    tmp = Math.floor(Math.random() * 50 + 1); $(".fill1").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 50 + 1); $(".fill2").css({ height: tmp + '%' });
+                    tmp = Math.floor(Math.random() * 50 + 1); $(".fill3").css({ height: tmp + '%' });
+                    $(".fill4").css({ height: '60%' });
+
+                    $(".txt4").click(function () { winAudio(); });
+                    $(".txt2, .txt3, .txt1").click(function () { loseAudio(); });
+                }
+
+                $(".ans-txt").click(function () {
+                    if (Action) {
+                        tam_total_answers++; localStorage.tam_total_answers = tam_total_answers;
+                        Action = false;
+                        clearInterval(tam_intervalTimer);
+                        if (Correct) {
+                            Correct = false;
+                            $(this).css({ backgroundImage: "url(res/img/button-green.png)" });
+                            if (level == 15) {
+                                //you win
+                                reward = 10000000;
+                                $("#reward").html("1,00,00,000");
+                                document.getElementById("intro-audio").play();
+                                gameOver();
+                                tam_games_won++; localStorage.tam_games_won = tam_games_won;
+                            } else {
+                                //progress
+                                level++;
+                                setTimeout(() => { Next(); }, 2000);
+                            }
+                        } else {
+                            $(this).css({ backgroundImage: "url(res/img/button-red.png)" });
+                            $(".txt" + Ans).css({ backgroundImage: "url(res/img/button-green.png)" });
+                            tam_wrong_answers++; localStorage.tam_wrong_answers = tam_wrong_answers;
+                            setTimeout(() => {
+                                gameOver();
+                            }, 400);
+                        }
+                    }
+                });
+
+            }
+
+
+            function Next() {
+                clearInterval(tam_intervalTimer); $(".ans-txt").off(); $(".hint3-bg, .hint2-bg").css({ visibility: 'hidden' });
+                $(".ans-txt").css({ backgroundImage: "url(res/img/button-bg.png)", visibility: 'visible' });
+                checkRepeat();
+                Action = true;
+                runTimer();
+            }
+
+            function runTimer() {
+                $(".left-bg, .right-bg").fadeOut(0);
+                $(".left-bg, .right-bg").fadeIn(0);
+                timerVar = 21;
+                tam_intervalTimer = setInterval(() => {
+                    timerVar--;
+                    $(".timer").html(timerVar);
+                    if (timerVar === 0) {
+                        clearInterval(tam_intervalTimer);
+                        gameOver();
+                        document.getElementById("lose-audio").play();
+                    }
+                }, 1000);
+            }
+            runTimer();
+
+
+            function gameOver() {
+                tam_games_played++; localStorage.setItem("tam_games_played", tam_games_played);
+                localStorage.setItem("gameplay", 0);
+                if (level <= 5) {
+                    reward = 0;
+                    $("#reward").html(reward);
+                } else if (level > 5 && level <= 10) {
+                    reward = 10000;
+                    $("#reward").html("10,000");
+                } else if (level > 10 && level < 15) {
+                    reward = 320000;
+                    $("#reward").html("3,20,000");
+                }
+                tam_coins = parseInt(localStorage.tam_coins);
+                tam_coins += parseInt(reward);
+                localStorage.tam_coins = tam_coins
+                $(".game-over-con").css({ display: 'flex' });
+                setTimeout(() => {
+                    $(".top, .ques-bg, .timer-bg, .ans-bg").css({ display: 'none' });
+                }, 250);
+
+                tam_inter++; localStorage.setItem("tam_inter", tam_inter);
+                if (tam_inter >= 3) {
+                    tam_inter = 0; localStorage.setItem("tam_inter", tam_inter);
+                    parent.location = "https://tam_inter";
+                }
+            }
+
+            hint1 = false;
+            $(".hint1").click(function () {
+                if (!hint1) {
+                    document.getElementById("hint-audio").play();
+                    hint1 = true;
+                    if (Ans == 1) { $(".txt2, .txt3").css({ visibility: 'hidden' }); }
+                    if (Ans == 2) { $(".txt4, .txt3").css({ visibility: 'hidden' }); }
+                    if (Ans == 3) { $(".txt1, .txt4").css({ visibility: 'hidden' }); }
+                    if (Ans == 4) { $(".txt1, .txt3").css({ visibility: 'hidden' }); }
+                    $(".hint1").css({ opacity: '.5' });
+                }
+            });
+
+            hint2 = false;
+            $(".hint2").click(function () {
+                if (!hint2) {
+                    document.getElementById("hint-audio").play();
+                    hint2 = true;
+                    $(".hint2-bg").css({ visibility: 'visible' }); $(".hint2").css({ opacity: '.5' });
+                }
+            });
+
+            hint3 = false;
+            $(".hint3").click(function () {
+                if (!hint3) {
+                    document.getElementById("hint-audio").play();
+                    hint3 = true;
+                    $(".hint3-bg").css({ visibility: 'visible' }); $(".hint3").css({ opacity: '.5' });
+                }
+            });
+
+            function Outro() {
+                $(".game-over-con").css({ transform: 'scale(1.2)', opacity: '0' });
+            }
+
+            $(".translate-img").click(function () {
+                if (lang == "en") {
+                    lang = "ma"; localStorage.setItem("lang", lang);
+                    maFunction();
+                } else {
+                    lang = "en"; localStorage.setItem("lang", lang);
+                    enFunction();
+                }
+                if (level <= 5) {
+                    $(".ques-txt").html(window[ques + "-e-q-" + lang + shuffleVar]);
+                } else {
+                    $(".ques-txt").html(window[ques + "-h-q-" + lang + shuffleVar]);
+                }
+
+            });
+
+            $(".btn, .translate-img").click(function () {
+                document.getElementById("click-audio").play();
+            });
+
+            $(".retry").click(function () {
+                Outro();
+                setTimeout(() => {
+                    localStorage.setItem("gameplay", 1);
+                    location.reload();
+                }, 400);
+            });
+
+            $(".home").click(function () {
+                Outro();
+                setTimeout(() => {
+                    localStorage.setItem("tam_intro", 1);
+                    history.back();
+                }, 400);
+            });
+
+        }
+
+
+    </script>
+</body>
+</html>

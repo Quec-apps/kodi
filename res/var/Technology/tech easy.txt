@@ -1,0 +1,699 @@
+What is the full form of RAM?
+A) Random Access Memory
+B) Read Only Memory
+C) Register Access Memory
+D) Remote Access Memory
+Answer: A
+
+What is the device used to connect a computer to the Internet?
+A) Router
+B) Modem
+C) Hub
+D) Switch
+Answer: B
+
+What is the operating system used in most smartphones?
+A) Windows
+B) iOS
+C) Android
+D) Blackberry OS
+Answer: C
+
+Which type of software is used to create and edit documents?
+A) Productivity software
+B) Graphic software
+C) Antivirus software
+D) System software
+Answer: A
+
+What does the term “spam” refer to in technology?
+A) Unsolicited email
+B) Malicious software
+C) Blocked website
+D) Broken link
+Answer: A
+
+What is the device that reads and writes data on CDs and DVDs?
+A) Hard disk drive
+B) CD-ROM drive
+C) USB drive
+D) Floppy disk drive
+Answer: B
+
+Which type of software is used to protect a computer from viruses and malware?
+A) Antivirus software
+B) Graphic software
+C) Productivity software
+D) System software
+Answer: A
+
+What is the name of the company that created the iPhone?
+A) Samsung
+B) Microsoft
+C) Apple
+D) Google
+Answer: C
+
+What is the name of the popular social networking site where users can share photos and videos?
+A) Instagram
+B) Twitter
+C) Snapchat
+D) TikTok
+Answer: A
+
+What is the name of the programming language used for web development?
+A) Python
+B) C++
+C) HTML
+D) Java
+Answer: C
+
+What is the device used to store and access data on a computer?
+A) Hard disk drive
+B) CD-ROM drive
+C) USB drive
+D) Floppy disk drive
+Answer: A
+
+What is the most widely used email service provider?
+A) Yahoo Mail
+B) Gmail
+C) Hotmail
+D) AOL Mail
+Answer: B
+
+What is the name of the popular online marketplace for buying and selling goods and services?
+A) Amazon
+B) eBay
+C) Etsy
+D) Walmart
+Answer: A
+
+What is the name of the search engine that is widely used to search the Internet?
+A) Yahoo
+B) Bing
+C) Google
+D) DuckDuckGo
+Answer: C
+
+What is the full form of CPU?
+A) Central Processing Unit
+B) Central Program Unit
+C) Central Processing User
+D) Central Program User
+Answer: A
+
+What is the name of the popular instant messaging app for smartphones?
+A) WhatsApp
+B) Facebook Messenger
+C) Snapchat
+D) Instagram Direct
+Answer: A
+
+What is the name of the operating system used in most laptops and desktops?
+A) Windows
+B) iOS
+C) Android
+D) MacOS
+Answer: A
+
+What is the name of the popular video sharing platform?
+A) YouTube
+B) Vimeo
+C) Dailymotion
+D) TikTok
+Answer: A
+
+What is the name of the popular e-commerce website for buying and selling books?
+A) Amazon
+B) Barnes & Noble
+C) Books-A-Million
+D) Powell's Books
+Answer: A
+
+What is the device used to transfer data between computers or to store data?
+A) Hard disk drive
+B) CD-ROM drive
+C) USB drive
+D) Floppy disk drive
+Answer: C
+
+What is the name of the popular digital wallet used for online payments?
+A) PayPal
+B) Venmo
+C) Apple Pay
+D) Google Wallet
+Answer: A
+
+What is the name of the device used to control and manage a computer's resources and tasks?
+A) Keyboard
+B) Monitor
+C) Mouse
+D) Operating System
+Answer: D
+
+What is the name of the popular virtual assistant used in smartphones?
+A) Siri
+B) Alexa
+C) Google Assistant
+D) Bixby
+Answer: A
+
+What is the name of the popular cloud storage service for storing and accessing files online?
+A) Google Drive
+B) Dropbox
+C) iCloud
+D) OneDrive
+Answer: B
+
+What is the full form of HTTP?
+A) Hypertext Transfer Protocol
+B) Hypertext Transfer Portal
+C) Hypertext Transfer Page
+D) Hypertext Transfer Program
+Answer: A
+
+What is the name of the popular social media platform where users can share short-form videos?
+A) TikTok
+B) Instagram
+C) Snapchat
+D) Vine
+Answer: A
+
+What is the name of the popular digital music streaming service?
+A) Spotify
+B) Apple Music
+C) Pandora
+D) Soundcloud
+Answer: A
+
+What is the name of the device used to convert analog signals into digital signals?
+A) Router
+B) Modem
+C) Hub
+D) Switch
+Answer: B
+
+What is the name of the popular online payment system used for online transactions?
+A) PayPal
+B) Venmo
+C) Apple Pay
+D) Google Wallet
+Answer: A
+
+What is the name of the device used to connect multiple devices to a computer network?
+A) Router
+B) Modem
+C) Hub
+D) Switch
+Answer: C
+
+What is the name of the popular mobile operating system used in most smartphones?
+A) Windows
+B) iOS
+C) Android
+D) Blackberry OS
+Answer: B
+
+What is the name of the device used to transfer data from a computer to a printer?
+A) Router
+B) Modem
+C) Hub
+D) Switch
+Answer: D
+
+What is the full form of URL?
+A) Uniform Resource Locator
+B) Uniform Resource Link
+C) Universal Resource Locator
+D) Universal Resource Link
+Answer: A
+
+What is the name of the device used to control the flow of data between devices in a network?
+A) Router
+B) Modem
+C) Hub
+D) Switch
+Answer: A
+
+What is the name of the popular online navigation system used in vehicles?
+A) Google Maps
+B) Waze
+C) Apple Maps
+D) HERE Maps
+Answer: A
+
+What is the name of the popular file sharing and collaboration platform used by businesses and individuals?
+A) Google Drive
+B) Dropbox
+C) iCloud
+D) OneDrive
+Answer: B
+
+What is the name of the popular video conferencing platform used for remote meetings and collaboration?
+A) Zoom
+B) Skype
+C) Microsoft Teams
+D) Google Meet
+Answer: A
+
+What is the name of the popular search engine used to search for information online?
+A) Yahoo
+B) Bing
+C) Google
+D) Baidu
+Answer: C
+
+What is the name of the popular voice-controlled smart home device?
+A) Google Home
+B) Amazon Echo
+C) Apple HomePod
+D) Nest Hub
+Answer: B
+
+What is the name of the popular software used for creating and editing documents?
+A) Microsoft Word
+B) Google Docs
+C) Pages
+D) LibreOffice Writer
+Answer: A
+
+What is the name of the popular software used for creating and editing spreadsheets?
+A) Microsoft Excel
+B) Google Sheets
+C) Numbers
+D) LibreOffice Calc
+Answer: A
+
+What is the name of the popular software used for creating and editing presentations?
+A) Microsoft PowerPoint
+B) Google Slides
+C) Keynote
+D) LibreOffice Impress
+Answer: A
+
+What is the name of the popular instant messaging and video call app used on smartphones?
+A) WhatsApp
+B) Viber
+C) WeChat
+D) Telegram
+Answer: A
+
+What is the name of the popular online marketplace for buying and selling goods?
+A) Amazon
+B) eBay
+C) Alibaba
+D) Rakuten
+Answer: A
+
+What is the name of the popular virtual reality headset used for gaming and entertainment?
+A) Oculus Rift
+B) PlayStation VR
+C) HTC Vive
+D) Microsoft HoloLens
+Answer: C
+
+What is the name of the popular artificial intelligence powered personal assistant used in smartphones?
+A) Siri
+B) Alexa
+C) Google Assistant
+D) Bixby
+Answer: C
+
+What is the name of the popular software used for creating and editing graphic designs?
+A) Adobe Photoshop
+B) CorelDRAW
+C) GIMP
+D) Inkscape
+Answer: A
+
+What is the name of the popular software used for creating and editing video content?
+A) Adobe Premiere Pro
+B) Final Cut Pro
+C) DaVinci Resolve
+D) iMovie
+Answer: A
+
+What is the name of the popular software used for creating and editing audio content?
+A) Adobe Audition
+B) Logic Pro X
+C) FL Studio
+D) GarageBand
+Answer: A
+
+What is the name of the popular online file storage and sharing service for businesses and individuals?
+A) Google Drive
+B) Dropbox
+C) iCloud
+D) OneDrive
+Answer: B
+
+What is the name of the popular software used for creating and editing web designs?
+A) Adobe Dreamweaver
+B) Wix
+C) WordPress
+D) Weebly
+Answer: A
+
+What is the name of the popular mobile application used for sharing and editing photos?
+A) Instagram
+B) Snapchat
+C) Flickr
+D) Pinterest
+Answer: A
+
+What is the name of the popular mobile application used for sharing short-form videos?
+A) TikTok
+B) Instagram
+C) Snapchat
+D) Vine
+Answer: A
+
+What is the name of the popular digital audio workstation used for music production and sound design?
+A) Ableton Live
+B) Logic Pro X
+C) FL Studio
+D) Cubase
+Answer: B
+
+What is the name of the popular web browser for accessing the Internet?
+A) Safari
+B) Chrome
+C) Internet Explorer
+D) Firefox
+Answer: B
+
+What is the name of the popular cloud-based project management software used by businesses?
+A) Asana
+B) Trello
+C) Basecamp
+D) Monday
+Answer: A
+
+What is the name of the popular online payment system used for online transactions?
+A) PayPal
+B) Apple Pay
+C) Venmo
+D) Square
+Answer: A
+
+What is the name of the popular software used for 3D modeling, animation and rendering?
+A) Autodesk 3DS Max
+B) Blender
+C) Cinema 4D
+D) Houdini
+Answer: A
+
+What is the name of the popular file compression software used for reducing file size?
+A) WinRAR
+B) WinZip
+C) 7-Zip
+D) PeaZip
+Answer: B
+
+What is the name of the popular virtual machine software used for running multiple operating systems on one computer?
+A) VMware
+B) Oracle VirtualBox
+C) Hyper-V
+D) Parallels
+Answer: B
+
+What is the name of the popular software used for protecting computers against viruses and malware?
+A) McAfee
+B) Norton
+C) Kaspersky
+D) AVG
+Answer: C
+
+What is the name of the popular software used for creating and managing databases?
+A) Microsoft Access
+B) Oracle Database
+C) MySQL
+D) SQL Server
+Answer: B
+
+What is the name of the popular software used for website analytics and tracking?
+A) Google Analytics
+B) Piwik
+C) Adobe Analytics
+D) Matomo
+Answer: A
+
+What is the name of the popular software used for data visualization and analysis?
+A) Tableau
+B) Power BI
+C) QlikView
+D) TIBCO Spotfire
+Answer: A
+
+What is the name of the popular cloud computing platform for hosting web applications and services?
+A) Amazon Web Services (AWS)
+B) Google Cloud Platform
+C) Microsoft Azure
+D) IBM Cloud
+Answer: A
+
+What is the name of the popular open-source software used for software development and testing?
+A) GitHub
+B) Bitbucket
+C) GitLab
+D) Mercurial
+Answer: A
+
+What is the name of the popular online platform used for online coding and software development?
+A) Codepen
+B) Repl.it
+C) JSFiddle
+D) CodeSandbox
+Answer: B
+
+What is the name of the popular programming language used for web development?
+A) Python
+B) Java
+C) JavaScript
+D) Ruby
+Answer: C
+
+What is the name of the popular framework used for developing web applications?
+A) React
+B) Angular
+C) Vue
+D) Ember
+Answer: B
+
+What is the name of the popular e-commerce platform used for building online stores and selling products online?
+A) Shopify
+B) Magento
+C) WooCommerce
+D) BigCommerce
+Answer: A
+
+What is the name of the popular platform used for hosting and managing large-scale data storage and processing?
+A) Hadoop
+B) Spark
+C) Cassandra
+D) HBase
+Answer: A
+
+What is the name of the popular front-end library used for building user interfaces?
+A) jQuery
+B) Bootstrap
+C) Foundation
+D) Materialize
+Answer: B
+
+What is the name of the popular framework used for developing mobile applications?
+A) React Native
+B) Ionic
+C) Xamarin
+D) Flutter
+Answer: A
+
+What is the name of the popular operating system used for mobile devices?
+A) iOS
+B) Android
+C) Windows Mobile
+D) BlackBerry OS
+Answer: A
+
+What is the name of the popular app used for instant messaging and video calls?
+A) WhatsApp
+B) Facebook Messenger
+C) Skype
+D) Telegram
+Answer: A
+
+What is the name of the popular online marketplace for buying and selling goods and services?
+A) Amazon
+B) eBay
+C) Etsy
+D) Alibaba
+Answer: A
+
+What is the name of the popular platform used for creating and sharing online surveys?
+A) Google Forms
+B) Typeform
+C) SurveyMonkey
+D) JotForm
+Answer: C
+
+What is the name of the popular software used for video editing and post-production?
+A) Adobe Premiere Pro
+B) Final Cut Pro
+C) DaVinci Resolve
+D) Lightworks
+Answer: A
+
+What is the name of the popular software used for photo editing and manipulation?
+A) Adobe Photoshop
+B) GIMP
+C) Corel Painter
+D) Krita
+Answer: A
+
+What is the name of the popular online platform used for sharing and hosting images?
+A) Flickr
+B) Imgur
+C) Picasa
+D) SmugMug
+Answer: B
+
+What is the name of the popular online platform used for sharing and hosting videos?
+A) YouTube
+B) Vimeo
+C) Dailymotion
+D) Twitch
+Answer: A
+
+What is the name of the popular online platform used for streaming music and podcasts?
+A) Spotify
+B) Apple Music
+C) SoundCloud
+D) Tidal
+Answer: A
+
+What is the name of the popular software used for digital audio workstation and music production?
+A) Ableton Live
+B) Logic Pro X
+C) FL Studio
+D) Cubase
+Answer: B
+
+What is the name of the popular software used for creating and designing digital art and illustrations?
+A) Adobe Illustrator
+B) Sketch
+C) Inkscape
+D) Affinity Designer
+Answer: A
+
+What is the name of the popular software used for creating and managing documents, spreadsheets and presentations?
+A) Microsoft Office
+B) Google Workspace
+C) LibreOffice
+D) Apple iWork
+Answer: A
+
+What is the name of the popular software used for project management and team collaboration?
+A) Asana
+B) Trello
+C) Basecamp
+D) Monday
+Answer: C
+
+What is the name of the popular software used for managing human resources and payroll?
+A) ADP
+B) Paychex
+C) Workday
+D) BambooHR
+Answer: A
+
+What is the name of the popular software used for accounting and bookkeeping?
+A) QuickBooks
+B) Xero
+C) FreshBooks
+D) Wave
+Answer: A
+
+What is the name of the popular software used for creating and managing databases?
+A) Microsoft Access
+B) FileMaker Pro
+C) MySQL
+D) Oracle Database
+Answer: A
+
+What is the name of the popular cloud storage service used for storing and sharing files online?
+A) Dropbox
+B) Google Drive
+C) OneDrive
+D) iCloud
+Answer: B
+
+What is the name of the popular platform used for developing and hosting websites?
+A) WordPress
+B) Wix
+C) Squarespace
+D) Weebly
+Answer: A
+
+What is the name of the popular platform used for selling products and services online?
+A) Shopify
+B) Magento
+C) WooCommerce
+D) BigCommerce
+Answer: A
+
+What is the name of the popular software used for creating and editing web pages?
+A) Adobe Dreamweaver
+B) BlueGriffon
+C) KompoZer
+D) SeaMonkey
+Answer: A
+
+What is the name of the popular software used for creating and managing digital marketing campaigns?
+A) Hootsuite
+B) Sprout Social
+C) Hubspot
+D) Marketo
+Answer: A
+
+What is the name of the popular platform used for searching the internet?
+A) Google
+B) Yahoo
+C) Bing
+D) DuckDuckGo
+Answer: A
+
+What is the name of the popular browser used for accessing the internet?
+A) Google Chrome
+B) Mozilla Firefox
+C) Microsoft Edge
+D) Apple Safari
+Answer: A
+
+What is the name of the popular platform used for sending and receiving email?
+A) Gmail
+B) Yahoo Mail
+C) Outlook
+D) ProtonMail
+Answer: A
+
+What is the name of the popular platform used for online booking and travel reservations?
+A) Booking.com
+B) Expedia
+C) TripAdvisor
+D) Hotels.com
+Answer: A
+
+What is the name of the popular platform used for online shopping and delivery services?
+A) Amazon
+B) Walmart
+C) Target
+D) Instacart
+Answer: A
+
+What is the name of the popular platform used for online investment and stock trading?
+A) Robinhood
+B) E*TRADE
+C) TD Ameritrade
+D) Fidelity Investments
+Answer: A

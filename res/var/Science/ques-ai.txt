@@ -1,0 +1,699 @@
+What is the smallest planet in our solar system?
+a) Mercury
+b) Venus
+c) Earth
+d) Mars
+Answer: a
+
+What is the largest planet in our solar system?
+a) Mercury
+b) Venus
+c) Earth
+d) Jupiter
+Answer: d
+
+What is the most abundant gas in Earth's atmosphere?
+a) Nitrogen
+b) Oxygen
+c) Carbon Dioxide
+d) Methane
+Answer: a
+
+What is the process of photosynthesis in plants called?
+a) Cellular Respiration
+b) Fermentation
+c) Photosynthesis
+d) Metabolism
+Answer: c
+
+What is the process of breaking down food into energy called?
+a) Digestion
+b) Cellular Respiration
+c) Fermentation
+d) Metabolism
+Answer: b
+
+What is the structure in cells that contains genetic material called?
+a) Nucleus
+b) Mitochondria
+c) Ribosome
+d) Endoplasmic Reticulum
+Answer: a
+
+What is the main source of energy for living organisms?
+a) Glucose
+b) Fat
+c) Protein
+d) Carbohydrates
+Answer: a
+
+What is the process of cell division called?
+a) Mitosis
+b) Meiosis
+c) Fertilization
+d) Embryogenesis
+Answer: a
+
+What is the process of producing offspring called?
+a) Reproduction
+b) Regeneration
+c) Metamorphosis
+d) Transformation
+Answer: a
+
+What is the process of passing traits from one generation to another called?
+a) Evolution
+b) Heredity
+c) Natural Selection
+d) Adaptation
+Answer: b
+
+What is the name of the study of living organisms and their relationships with each other and their environment?
+a) Biology
+b) Zoology
+c) Botany
+d) Ecology
+Answer: a
+
+What is the study of the physical and natural phenomena of the Earth called?
+a) Geology
+b) Paleontology
+c) Meteorology
+d) Hydrology
+Answer: a
+
+What is the study of the behavior and mental processes of living organisms called?
+a) Psychology
+b) Sociology
+c) Anthropology
+d) Economics
+Answer: a
+
+What is the study of the structure and function of the human body called?
+a) Anatomy
+b) Physiology
+c) Pathology
+d) Immunology
+Answer: a
+
+What is the study of matter and energy and the interactions between them called?
+a) Physics
+b) Chemistry
+c) Biology
+d) Mathematics
+Answer: b
+
+What is the study of the Earth's atmosphere and weather patterns called?
+a) Meteorology
+b) Geology
+c) Oceanography
+d) Hydrology
+Answer: a
+
+What is the study of the Earth's oceans called?
+a) Oceanography
+b) Geology
+c) Meteorology
+d) Hydrology
+Answer: a
+
+What is the study of fossils and ancient life forms called?
+a) Paleontology
+b) Archaeology
+c) Geology
+d) Botany
+Answer: a
+
+What is the study of plants called?
+a) Botany
+b) Zoology
+c) Paleontology
+d) Ecology
+Answer: a
+
+What is the study of animals called?
+a) Botany
+b) Zoology
+c) Paleontology
+d) Ecology
+Answer: b
+
+What is the study of the distribution and abundance of living organisms and their interactions with their environment called?
+a) Botany
+b) Zoology
+c) Paleontology
+d) Ecology
+Answer: d
+
+What is the study of microorganisms and their relationship with other living organisms called?
+a) Microbiology
+b) Immunology
+c) Pathology
+d) Anatomy
+Answer: a
+
+What is the study of the immune system and diseases called?
+a) Microbiology
+b) Immunology
+c) Pathology
+d) Anatomy
+Answer: b
+
+What is the study of diseases and their causes, processes, and treatments called?
+a) Microbiology
+b) Immunology
+c) Pathology
+d) Anatomy
+Answer: c
+
+What is the study of the interactions between organisms and their physical and chemical environment called?
+a) Hydrology
+b) Meteorology
+c) Oceanography
+d) Ecology
+Answer: d
+
+What is the study of the properties and behavior of light called?
+a) Optics
+b) Photonics
+c) Electromagnetism
+d) Acoustics
+Answer: a
+
+What is the study of the properties and behavior of sound called?
+a) Optics
+b) Photonics
+c) Electromagnetism
+d) Acoustics
+Answer: d
+
+What is the study of the interaction between magnetic fields and electric currents called?
+a) Optics
+b) Photonics
+c) Electromagnetism
+d) Acoustics
+Answer: c
+
+What is the study of the generation, control, and manipulation of light called?
+a) Optics
+b) Photonics
+c) Electromagnetism
+d) Acoustics
+Answer: b
+
+What is the process of turning energy into matter called?
+a) Annihilation
+b) Fusion
+c) Fission
+d) Antimatter
+Answer: a
+
+What is the process of releasing energy by splitting atomic nuclei called?
+a) Annihilation
+b) Fusion
+c) Fission
+d) Antimatter
+Answer: c
+
+What is the process of releasing energy by joining atomic nuclei called?
+a) Annihilation
+b) Fusion
+c) Fission
+d) Antimatter
+Answer: b
+
+What is the study of the behavior and properties of matter and energy at a subatomic level called?
+a) Quantum Mechanics
+b) Astrophysics
+c) Particle Physics
+d) Thermodynamics
+Answer: a
+
+What is the study of the physical properties and behavior of stars and galaxies called?
+a) Quantum Mechanics
+b) Astrophysics
+c) Particle Physics
+d) Thermodynamics
+Answer: b
+
+What is the study of the behavior and properties of matter and energy related to temperature and heat called?
+a) Quantum Mechanics
+b) Astrophysics
+c) Particle Physics
+d) Thermodynamics
+Answer: d
+
+What is the study of the fundamental building blocks of matter and energy called?
+a) Quantum Mechanics
+b) Astrophysics
+c) Particle Physics
+d) Thermodynamics
+Answer: c
+
+What is the study of the behavior and properties of materials and their relationships with various forces and phenomena called?
+a) Mechanics
+b) Materials Science
+c) Nanotechnology
+d) Polymer Science
+Answer: b
+
+What is the study of the behavior and properties of materials at a nanoscale level called?
+a) Mechanics
+b) Materials Science
+c) Nanotechnology
+d) Polymer Science
+Answer: c
+
+What is the study of the behavior and properties of polymeric materials and their applications called?
+a) Mechanics
+b) Materials Science
+c) Nanotechnology
+d) Polymer Science
+Answer: d
+
+What is the study of the principles and techniques of engineering and design of structures, machines, and systems called?
+a) Mechanical Engineering
+b) Electrical Engineering
+c) Civil Engineering
+d) Chemical Engineering
+Answer: a
+
+What is the study of the principles and techniques of engineering and design of electrical systems and equipment called?
+a) Mechanical Engineering
+b) Electrical Engineering
+c) Civil Engineering
+d) Chemical Engineering
+Answer: b
+
+What is the study of the principles and techniques of engineering and design of buildings, roads, bridges, and other infrastructure called?
+a) Mechanical Engineering
+b) Electrical Engineering
+c) Civil Engineering
+d) Chemical Engineering
+Answer: c
+
+What is the study of the principles and techniques of engineering and design of chemical processes and equipment called?
+a) Mechanical Engineering
+b) Electrical Engineering
+c) Civil Engineering
+d) Chemical Engineering
+Answer: d
+
+What is the study of the behavior and properties of liquids, gases, and plasmas called?
+a) Fluid Mechanics
+b) Thermodynamics
+c) Heat Transfer
+d) Combustion Science
+Answer: a
+
+What is the study of the behavior and properties of matter and energy in relation to temperature and heat called?
+a) Fluid Mechanics
+b) Thermodynamics
+c) Heat Transfer
+d) Combustion Science
+Answer: b
+
+What is the study of the transfer of heat from one body to another called?
+a) Fluid Mechanics
+b) Thermodynamics
+c) Heat Transfer
+d) Combustion Science
+Answer: c
+
+What is the study of the behavior of fuels and combustion processes called?
+a) Fluid Mechanics
+b) Thermodynamics
+c) Heat Transfer
+d) Combustion Science
+Answer: d
+
+What is the study of the behavior of solids and their mechanical properties called?
+a) Strength of Materials
+b) Materials Science
+c) Solid Mechanics
+d) Nanotechnology
+Answer: c
+
+What is the study of the behavior of materials under load and stress called?
+a) Strength of Materials
+b) Materials Science
+c) Solid Mechanics
+d) Nanotechnology
+Answer: a
+
+What is the study of the behavior of natural and man-made structures and systems during earthquakes called?
+a) Seismology
+b) Structural Engineering
+c) Earthquake Engineering
+d) Geotechnical Engineering
+Answer: c
+
+What is the study of the behavior of the Earth's interior, including earthquakes and volcanic activity called?
+a) Seismology
+b) Structural Engineering
+c) Earthquake Engineering
+d) Geotechnical Engineering
+Answer: a
+
+What is the study of the behavior of natural and man-made structures and systems under loads and environmental conditions called?
+a) Seismology
+b) Structural Engineering
+c) Earthquake Engineering
+d) Geotechnical Engineering
+Answer: b
+
+What is the study of the behavior of soils and rocks, and their interaction with structures and systems called?
+a) Seismology
+b) Structural Engineering
+c) Earthquake Engineering
+d) Geotechnical Engineering
+Answer: d
+
+What is the study of the behavior of light and electromagnetic radiation called?
+a) Optics
+b) Photonics
+c) Electromagnetics
+d) Electrodynamics
+Answer: a
+
+What is the study of the behavior and properties of light and electromagnetic radiation and their applications called?
+a) Optics
+b) Photonics
+c) Electromagnetics
+d) Electrodynamics
+Answer: b
+
+What is the study of the behavior and properties of electric and magnetic fields and their interactions with each other and with materials called?
+a) Optics
+b) Photonics
+c) Electromagnetics
+d) Electrodynamics
+Answer: c
+
+What is the study of the behavior of electric and magnetic fields and their interactions with charged particles called?
+a) Optics
+b) Photonics
+c) Electromagnetics
+d) Electrodynamics
+Answer: d
+
+What is the study of the behavior and properties of quantum systems and their applications called?
+a) Quantum Mechanics
+b) Quantum Physics
+c) Quantum Computing
+d) Quantum Information Science
+Answer: a
+
+What is the study of the behavior and properties of quantum systems and their interactions with the physical world called?
+a) Quantum Mechanics
+b) Quantum Physics
+c) Quantum Computing
+d) Quantum Information Science
+Answer: b
+
+What is the study of the design, development, and use of computers and computer systems based on the principles of quantum mechanics called?
+a) Quantum Mechanics
+b) Quantum Physics
+c) Quantum Computing
+d) Quantum Information Science
+Answer: c
+
+What is the study of the behavior and properties of quantum systems and their use for information processing and communication called?
+a) Quantum Mechanics
+b) Quantum Physics
+c) Quantum Computing
+d) Quantum Information Science
+Answer: d
+
+What is the study of the behavior and properties of the Earth's atmosphere and the effects of human activity on it called?
+a) Meteorology
+b) Climatology
+c) Atmospheric Science
+d) Environmental Science
+Answer: c
+
+What is the study of the behavior and properties of weather and weather patterns called?
+a) Meteorology
+b) Climatology
+c) Atmospheric Science
+d) Environmental Science
+Answer: a
+
+What is the study of the behavior and properties of climates and climate patterns called?
+a) Meteorology
+b) Climatology
+c) Atmospheric Science
+d) Environmental Science
+Answer: b
+
+What is the study of the behavior and properties of the environment and the effects of human activity on it called?
+a) Meteorology
+b) Climatology
+c) Atmospheric Science
+d) Environmental Science
+Answer: d
+
+What is the study of the behavior and properties of matter and energy and their interactions called?
+a) Physics
+b) Chemistry
+c) Biology
+d) Geology
+Answer: a
+
+What is the study of the behavior and properties of chemical substances and their reactions called?
+a) Physics
+b) Chemistry
+c) Biology
+d) Geology
+Answer: b
+
+What is the study of the behavior and properties of living organisms and their interactions with each other and with their environment called?
+a) Physics
+b) Chemistry
+c) Biology
+d) Geology
+Answer: c
+
+What is the study of the behavior and properties of the Earth, its rocks and minerals, and its geological structures and processes called?
+a) Physics
+b) Chemistry
+c) Biology
+d) Geology
+Answer: d
+
+What is the study of the behavior and properties of plants and their interactions with the environment called?
+a) Botany
+b) Zoology
+c) Microbiology
+d) Ecology
+Answer: a
+
+What is the study of the behavior and properties of animals and their interactions with each other and with their environment called?
+a) Botany
+b) Zoology
+c) Microbiology
+d) Ecology
+Answer: b
+
+What is the study of the behavior and properties of microorganisms and their interactions with each other and with their environment called?
+a) Botany
+b) Zoology
+c) Microbiology
+d) Ecology
+Answer: c
+
+What is the study of the behavior and properties of ecosystems and their interactions with each other and with the environment called?
+a) Botany
+b) Zoology
+c) Microbiology
+d) Ecology
+Answer: d
+
+What is the study of the behavior and properties of the human body and its functions and systems called?
+a) Anatomy
+b) Physiology
+c) Neuroscience
+d) Human Biology
+Answer: b
+
+What is the study of the structure and organization of the human body and its parts called?
+a) Anatomy
+b) Physiology
+c) Neuroscience
+d) Human Biology
+Answer: a
+
+What is the study of the behavior and properties of the nervous system and the brain and their functions and processes called?
+a) Anatomy
+b) Physiology
+c) Neuroscience
+d) Human Biology
+Answer: c
+
+What is the study of the behavior and properties of the human body and its functions and processes in a biological and medical context called?
+a) Anatomy
+b) Physiology
+c) Neuroscience
+d) Human Biology
+Answer: d
+
+What is the study of the behavior and properties of energy, forces, and motion and their interactions and transformations called?
+a) Mechanics
+b) Electromagnetism
+c) Thermodynamics
+d) Quantum Mechanics
+Answer: a
+
+What is the study of the behavior and properties of electric and magnetic fields and their interactions with charged particles and materials called?
+a) Mechanics
+b) Electromagnetism
+c) Thermodynamics
+d) Quantum Mechanics
+Answer: b
+
+What is the study of the behavior and properties of heat and temperature and their interactions and transformations called?
+a) Mechanics
+b) Electromagnetism
+c) Thermodynamics
+d) Quantum Mechanics
+Answer: c
+
+What is the study of the behavior and properties of quantum systems and their interactions and transformations called?
+a) Mechanics
+b) Electromagnetism
+c) Thermodynamics
+d) Quantum Mechanics
+Answer: d
+
+What is the study of the behavior and properties of light and electromagnetic radiation and their interactions with materials and the environment called?
+a) Optics
+b) Astrophysics
+c) Radiology
+d) Electromagnetism
+Answer: a
+
+What is the study of the behavior and properties of astronomical objects and their interactions with the environment and with each other called?
+a) Optics
+b) Astrophysics
+c) Radiology
+d) Electromagnetism
+Answer: b
+
+What is the study of the behavior and properties of X-rays and other forms of ionizing radiation and their interactions with materials and the environment called?
+a) Optics
+b) Astrophysics
+c) Radiology
+d) Electromagnetism
+Answer: c
+
+What is the study of the behavior and properties of the Earth's atmosphere and its interactions with the environment and with human activities called?
+a) Meteorology
+b) Oceanography
+c) Hydrology
+d) Geology
+Answer: a
+
+What is the study of the behavior and properties of the Earth's oceans and their interactions with the environment and with human activities called?
+a) Meteorology
+b) Oceanography
+c) Hydrology
+d) Geology
+Answer: b
+
+What is the study of the behavior and properties of water on and under the Earth's surface and its interactions with the environment and with human activities called?
+a) Meteorology
+b) Oceanography
+c) Hydrology
+d) Geology
+Answer: c
+
+What is the study of the behavior and properties of the Earth's geosphere and its interactions with the environment and with human activities called?
+a) Geography
+b) Geology
+c) Geomorphology
+d) Geophysics
+Answer: b
+
+What is the study of the behavior and properties of the Earth's surface and its features and their interactions with the environment and with human activities called?
+a) Geography
+b) Geology
+c) Geomorphology
+d) Geophysics
+Answer: a
+
+What is the study of the behavior and properties of the Earth's landforms and their evolution and processes over time called?
+a) Geography
+b) Geology
+c) Geomorphology
+d) Geophysics
+Answer: c
+
+What is the study of the behavior and properties of the Earth's physical structure and processes and its interactions with the environment and with human activities called?
+a) Geography
+b) Geology
+c) Geomorphology
+d) Geophysics
+Answer: d
+
+What is the study of the behavior and properties of genetics and heredity and their interactions with the environment and with human activities called?
+a) Genetics
+b) Evolution
+c) Molecular Biology
+d) Genomics
+Answer: a
+
+What is the study of the behavior and properties of species and their evolution and changes over time called?
+a) Genetics
+b) Evolution
+c) Molecular Biology
+d) Genomics
+Answer: b
+
+What is the study of the behavior and properties of molecular biology and their interactions with the environment and with human activities called?
+a) Genetics
+b) Evolution
+c) Molecular Biology
+d) Genomics
+Answer: c
+
+What is the study of the behavior and properties of genomes and their interactions with the environment and with human activities called?
+a) Genetics
+b) Evolution
+c) Molecular Biology
+d) Genomics
+Answer: d
+
+What is the study of the behavior and properties of microorganisms and their interactions with the environment and with human activities called?
+a) Microbiology
+b) Virology
+c) Parasitology
+d) Immunology
+Answer: a
+
+What is the study of the behavior and properties of viruses and their interactions with the environment and with human activities called?
+a) Microbiology
+b) Virology
+c) Parasitology
+d) Immunology
+Answer: b
+
+What is the study of the behavior and properties of parasites and their interactions with the environment and with human activities called?
+a) Microbiology
+b) Virology
+c) Parasitology
+d) Immunology
+Answer: c
+
+What is the study of the behavior and properties of the immune system and its interactions with the environment and with human activities called?
+a) Microbiology
+b) Virology
+c) Parasitology
+d) Immunology
+Answer: d
+
+What is the study of the behavior and properties of plants and their interactions with the environment and with human activities called?
+a) Botany
+b) Zoology
+c) Ecology
+d) Agriculture
+Answer: a

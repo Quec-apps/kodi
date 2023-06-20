@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <script src="../res/jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(../res/font/Rubik-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            /* supported by Chrome and Opera */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+        }
+
+        .top {
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .rating-bg {
+            margin-left: 5vw;
+            display: flex;
+            justify-content: center;
+            transition: all 400ms ease;
+        }
+
+        .rate-level-bg {
+            width: 13vw;
+            height: 13vw;
+            position: relative;
+        }
+
+        .rate-level-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .rate-level-txt {
+            font-size: 5vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #010d37;
+        }
+
+        .tam_coins {
+            margin-right: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: logo-img 400ms ease 1;
+            transition: all 400ms ease;
+        }
+
+        .tam_coins-img {
+            width: 8vw;
+            height: 8vw;
+        }
+
+        #tam_coins {
+            margin-left: 2vw;
+            font-size: 5.5vw;
+        }
+
+        .mid {
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .content {
+            height: 60vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .button-bg {
+            width: 100vw;
+            margin-top: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .button-stick {
+            width: 100vw;
+            height: .5vh;
+            background-color: #d5d7d5;
+            position: absolute;
+            top: 48%;
+            left: 0;
+            z-index: 0;
+            animation: stick 400ms ease 1;
+            transition: all 300ms ease;
+        }
+
+        @keyframes stick {
+            0% {
+                transform: translate(100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .button {
+            width: 70vw;
+            padding: 2vh 0;
+            background-image: url(../res/img/button-bg.png);
+            background-size: 100% 100%;
+            text-align: center;
+            z-index: 1;
+            font-size: 15px;
+            animation: button 400ms ease 1;
+            transition: transform 300ms ease;
+        }
+
+        @keyframes button {
+            0% {
+                transform: translate(-100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .button:active {
+            transition: none;
+            transform: scale(.95);
+        }
+
+        .btm {
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="../res/audio/intro.mp3" id="tam_intro-audio"></audio>
+    <audio src="../res/audio/lose.mp3" id="lose-audio"></audio>
+    <audio src="../res/audio/play.mp3" id="play-audio"></audio>
+    <audio src="../res/audio/win.mp3" id="win-audio"></audio>
+    <audio src="../res/audio/gameplay.mp3" id="gameplay-audio"></audio>
+    <audio src="../res/audio/hint.mp3" id="hint-audio"></audio>
+    <audio src="../res/audio/click.mp3" id="click-audio"></audio>
+
+    <div class="top">
+        <div class="tam_coins">
+            <img src="../res/img/coins.png" class="tam_coins-img">
+            <div id="tam_coins">28</div>
+        </div>
+    </div>
+
+    <style>
+        .profile-bg {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-img {
+            margin-right: 2vw;
+            width: 10vw;
+            height: 10vw;
+        }
+
+        .profile-txt {
+            font-size: 5vw;
+        }
+
+        .rating-bg {
+            margin-left: 5vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .rate-level-bg {
+            width: 13vw;
+            height: 13vw;
+            position: relative;
+        }
+
+        .rate-level-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .rate-level-txt {
+            font-size: 5vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #010d37;
+        }
+
+        .rating-bar-bg {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tam_xp-txt {
+            width: 100vw;
+            text-align: center;
+            color: #00af00;
+        }
+
+        .full-bar {
+            width: 40vw;
+            height: 4vw;
+            background-color: black;
+        }
+
+        .fill-bar {
+            width: 40%;
+            height: 100%;
+            background-color: #d5d7d5;
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+    <div class="mid">
+        <div class="profile-bg">
+            <img src="../res/img/profile.png" class="profile-img">
+            <div class="profile-txt">You</div>
+        </div>
+        <div class="rating-bg">
+            <div class="rate-level-bg">
+                <img src="../res/img/level.png" class="rate-level-img">
+                <div class="rate-level-txt"></div>
+            </div>
+        </div>
+        <div class="rating-bar-bg">
+            <div class="full-bar">
+                <div class="fill-bar">
+                    <div class="increased-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tam_xp-txt">256 XP</div>
+    </div>
+
+    <div class="content">
+        <div class="button-bg play">
+            <div class="button-stick"></div>
+            <div class="button">PLAY</div>
+        </div>
+
+        <div class="button-bg stats">
+            <div class="button-stick"></div>
+            <div class="button">STATISTICS</div>
+        </div>
+
+    </div>
+
+    <style>
+        .guess-ad-txt {
+            color: #23105f;
+            font-size: 3vw;
+            width: 100%;
+            text-align: center;
+        }
+
+        .guess-bg {
+            width: 60vw;
+            margin-right: 2vw;
+            background-color: #d5d7d5;
+            color: #23105f;
+            border-radius: 10px;
+            padding: .5vh 2vw;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            transition: all 400ms ease;
+            animation: guess-bg 400ms ease 1;
+        }
+
+        @keyframes guess-bg {
+            0% {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0%);
+                opacity: 1;
+            }
+        }
+
+        .guess-bg:active {
+            transition: none;
+            opacity: .5;
+        }
+
+        .guess-img {
+            width: 11vw;
+            height: 11vw;
+        }
+
+        .guess-txt {
+            font-size: 4vw;
+        }
+    </style>
+    <div class="btm">
+        <div class="guess-bg">
+            <div class="guess-ad-txt">Advertisement</div>
+            <img src="../res/img/guess-icon.png" class="guess-img">
+            <div class="guess-txt">Guess Malayalam Movie</div>
+        </div>
+    </div>
+    </div>
+
+    <style>
+        .latest-con {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.671);
+            z-index: 10;
+        }
+
+        .latest-bg {
+            width: 100vw;
+            height: 32vh;
+            padding: 2vh 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .latest-txt {
+            width: 100%;
+            text-align: center;
+            font-size: 6vw;
+        }
+    </style>
+    <div class="latest-con" id="latest-con">
+        <div class="latest-bg">
+            <div class="latest-txt">New Question Pack Available!!!</div>
+            <div class="button-bg ques">
+                <div class="button-stick"></div>
+                <div class="button">Go To Question Pack</div>
+            </div>
+            <div class="button-bg latest-exit" onclick="document.getElementById('latest-con').style.display='none'">
+                <div class="button-stick"></div>
+                <div class="button">Exit</div>
+            </div>
+        </div>
+
+
+        <script>
+            function checkNetConnection() {
+                jQuery.ajaxSetup({ async: false });
+                re = "";
+                r = Math.round(Math.random() * 10000);
+                $.get("../a.txt", { subins: r }, function (d) {
+                    re = true;
+                }).error(function () {
+                    re = false;
+                    parent.location = 'error.html';
+                });
+                return re;
+            }
+            setInterval(() => {
+                checkNetConnection()
+            }, 4000);
+
+            localStorage.setItem("gameplay", 0);
+            function allFunction() {
+
+                if (localStorage.tam_online_total_answers == null) {
+                    tam_online_total_answers = localStorage.setItem("tam_online_total_answers", 0);
+                    tam_tam_online_correct_answers = localStorage.setItem("tam_tam_online_correct_answers", 0);
+                    tam_online_wrong_answers = localStorage.setItem("tam_online_wrong_answers", 0);
+                    tam_online_games_played = localStorage.setItem("tam_online_games_played", 0);
+                    tam_online_games_won = localStorage.setItem("tam_online_games_won", 0);
+                    tam_online_games_lose = localStorage.setItem("tam_online_games_lose", 0);
+
+                }
+
+                tam_coins = localStorage.tam_coins;
+
+                tam_xp = parseInt(localStorage.tam_xp);
+
+                Level = Math.trunc(tam_xp % 15);
+                $(".rate-level-txt").html(Math.trunc(tam_xp / 15));
+                fillPercent = (Level * 100) / 15;
+                $(".fill-bar").css({ width: fillPercent + '%' });
+                $(".tam_xp-txt").html(localStorage.tam_xp + " XP");
+
+                if (tam_coins >= 1000 && tam_coins < 1000000) {
+                    $("#tam_coins").html((tam_coins / 1000).toFixed(2) + "K");
+                } else if (tam_coins >= 1000000) {
+                    $("#tam_coins").html((tam_coins / 1000000).toFixed(3) + "M");
+                } else {
+                    $("#tam_coins").html(tam_coins);
+                }
+
+                function Outro() {
+                    $(".new-txt").fadeOut();
+                    setTimeout(() => { $(".button").css({ transform: 'translateX(150%)' }); }, 100);
+                    setTimeout(() => { $(".guess-bg").css({ transform: 'translateX(100%)', opacity: '0' }); }, 100);
+                    setTimeout(() => { $(".button-stick").css({ transform: 'translateX(-100%)' }); }, 300);
+                    setTimeout(() => { $(".logo-img, .tam_coins, .rating-bg, .mid").css({ transform: 'scale(1.2)', opacity: '0' }); }, 300);
+                }
+
+                $(".play").click(function () {
+                    localStorage.setItem("tam_intro", 0);
+                    document.getElementById("play-audio").play();
+                    setTimeout(() => { Outro(); }, 300);
+                    setTimeout(() => {
+                        localStorage.setItem("gameplay", 1);
+                        location.href = "wait_online.html";
+                    }, 2800);
+                });
+
+                $(".stats").click(function () {
+                    localStorage.setItem("tam_intro", 0);
+                    setTimeout(() => {
+                        document.getElementById("click-audio").play();
+                    }, 200);
+                    Outro();
+                    setTimeout(() => {
+                        location.href = "online_stats.html";
+                    }, 600);
+                });
+
+                $(".guess-bg").click(function () {
+                    localStorage.setItem("tam_intro", 0);
+                    setTimeout(() => {
+                        document.getElementById("click-audio").play();
+                    }, 200);
+                    setTimeout(() => {
+                        parent.location = "https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
+                    }, 600);
+                });
+
+
+            }
+
+
+            $(window).load(function () {
+                allFunction();
+            });
+        </script>
+</body>
+
+</html>

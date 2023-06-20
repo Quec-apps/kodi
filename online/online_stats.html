@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats</title>
+    <script src="../res/jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(../res/font/Rubik-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            /* supported by Chrome and Opera */
+            -webkit-user-select: none;
+            /* Safari */
+            -khtml-user-select: none;
+            /* Konqueror HTML */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* Internet Explorer/Edge */
+        }
+
+        .title {
+            padding-left: 3vw;
+            font-size: 9vw;
+            height: 15vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .content {
+            width: 100%;
+            height: 85vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .button-bg {
+            width: 100vw;
+            margin-top: 4vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .button-stick {
+            width: 100vw;
+            height: .5vh;
+            background-color: #d5d7d5;
+            position: absolute;
+            top: 47%;
+            left: 0;
+            z-index: 0;
+            animation: stick 400ms ease 1;
+            transition: all 300ms ease;
+        }
+
+        @keyframes stick {
+            0% {
+                transform: translate(100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .button {
+            width: 90vw;
+            padding: 2vh 0;
+            background-image: url(../res/img/button-bg.png);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: space-between;
+            z-index: 1;
+            font-size: 4vw;
+            animation: button 400ms ease 1;
+            transition: transform 300ms ease;
+        }
+
+        @keyframes button {
+            0% {
+                transform: translate(-100%);
+            }
+
+            100% {
+                transform: translate(0%);
+            }
+        }
+
+        .txt {
+            margin-left: 11vw;
+        }
+
+        .txt2 {
+            margin-right: 11vw;
+        }
+
+        .percent-txt {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">Statistics</div>
+
+    <div class="content">
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Total answers</div>
+                <div class="txt2 tam_total_answers">0</div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Correct answers</div>
+                <div class="txt2 tam_correct_answers">0</div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Wrong answers</div>
+                <div class="txt2 tam_wrong_answers">0</div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">% of correct answers</div>
+                <div class="txt2 percent-txt">
+                    <div class="percent"></div>%
+                </div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Games played</div>
+                <div class="txt2 tam_games_played">0</div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Games won</div>
+                <div class="txt2 tam_games_won">0</div>
+            </div>
+        </div>
+
+        <div class="button-bg ques">
+            <div class="button-stick"></div>
+            <div class="button">
+                <div class="txt">Games lose</div>
+                <div class="txt2 games_lose">0</div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        tam_total_answers = localStorage.tam_online_total_answers;
+        tam_correct_answers = localStorage.tam_tam_online_correct_answers;
+        tam_wrong_answers = localStorage.tam_online_wrong_answers;
+        tam_games_played = localStorage.tam_online_games_played;
+        tam_games_won = localStorage.tam_online_games_won;
+        games_lose = localStorage.tam_online_games_lose;
+        percent = ((tam_correct_answers / tam_total_answers) * 100).toFixed(0);
+
+        $(".tam_total_answers").html(tam_total_answers);
+        $(".tam_correct_answers").html(tam_correct_answers);
+        $(".tam_wrong_answers").html(tam_wrong_answers);
+        $(".tam_games_played").html(tam_games_played);
+        $(".tam_games_won").html(tam_games_won);
+        $(".games_lose").html(games_lose);
+        if (isNaN(percent)) {
+            $(".percent").html(0);
+        } else {
+            $(".percent").html(percent);
+        }
+    </script>
+</body>
+
+</html>

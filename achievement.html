@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement</title>
+    <script src="res/jquery.min.js"></script>
+    <style>
+        @font-face {
+            font-family: Rubik;
+            src: url(res/font/Rubik-Medium.ttf);
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient(#23105f, #010d37);
+            font-family: Rubik;
+            color: #d5d7d5;
+            user-select: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        .title {
+            padding-left: 15px;
+            font-size: xx-large;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .tam_coins {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: logo-img 400ms ease 1;
+            transition: all 400ms ease;
+        }
+
+        .tam_coins-img {
+            width: 15px;
+            height: 15px;
+        }
+
+        #tam_coins {
+            margin-left: 5px;
+            font-size: medium;
+        }
+
+        .sub-ti {
+            padding-left: 15px;
+            font-size: large;
+            padding-top: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .content {
+            height: 90vh;
+            overflow: scroll;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .ct-ti {
+            width: 60%;
+            padding-left: 8px;
+        }
+
+        .ct-con {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .ring {
+            width: 90%;
+            margin: 0 auto;
+            padding: 3px 0px;
+            margin-bottom: 6px;
+            border-radius: 10px;
+            border: solid 4px #d5d7d5;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .status {
+            display: none;
+        }
+
+        .status-txt {
+            width: 100%;
+            font-size: medium;
+            text-align: center;
+        }
+
+        .bar {
+            width: 90px;
+            height: 7px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #3e494a;
+        }
+
+        .filled {
+            width: 40%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #d5d7d5;
+        }
+
+        .claim-bg {
+            width: 70%;
+            border-radius: 10px;
+            background-color: green;
+            padding: 1px 2px;
+            margin-top: 5px;
+            font-size: medium;
+            text-align: center;
+            display: none;
+        }
+
+        .claim-bg:active {
+            opacity: .6;
+        }
+
+        .claimed {
+            color: #a0a6a7;
+            margin-top: 5px;
+            font-size: medium;
+            display: none;
+        }
+    </style>
+    <script>
+        tam_total_answers = localStorage.tam_total_answers;
+        tam_correct_answers = localStorage.tam_correct_answers;
+        tam_games_played = localStorage.tam_games_played;
+        tam_games_won = localStorage.tam_games_won
+
+        tam_tam_online_correct_answers = localStorage.tam_tam_online_correct_answers;
+        tam_online_games_won = localStorage.tam_online_games_won;
+
+        function BarFill(numerator, denominator, id) {
+            t = (numerator / denominator * 100).toFixed(0);
+            $('#' + id).css({ width: t + '%' });
+        }
+    </script>
+</head>
+
+<body>
+    <style>
+        #Level, #tam_xp {
+            font-size: xx-small;
+            color: #3e494a;
+        }
+    </style>
+    <div class="title">Achievements</div>
+
+    <div class="content">
+        <div class="sub-ti">Basic</div>
+
+    </div>
+    <script>
+        tam_coins = parseInt(localStorage.tam_coins);
+
+        tam_basicAchiev = JSON.parse(localStorage.tam_basicAchiev);
+        tam_offlineAchiev = JSON.parse(localStorage.tam_offlineAchiev);
+        tam_onlineAchiev = JSON.parse(localStorage.tam_onlineAchiev);
+
+        function CoinAppend(coi_) {
+            if (coi_ >= 1000 && coi_ < 1000000) {
+                return (coi_ / 1000).toFixed(1) + "K";
+            } else if (coi_ >= 1000000) {
+                return (coi_ / 1000000).toFixed(1) + "M";
+            } else {
+                return coi_;
+            }
+        }
+
+        for (i in tam_basicAchiev) {
+            $('.content').append(`
+<div class="ring">
+    <div class="ct-ti">Play ${tam_basicAchiev[i][3]} times</div>
+    <div class="ct-con">
+        <div class="tam_coins">
+            <img src="res/img/coins.png" class="tam_coins-img">
+            <div id="tam_coins">${CoinAppend(tam_basicAchiev[i][2])}</div>
+        </div>
+        <div class="status" id="basic_status${i}">
+            <div class="status-txt">${tam_games_played}/${tam_basicAchiev[i][3]}</div>
+            <div class="bar"><div class="filled" id="basic_fill${i}"></div></div>
+            <script>
+                BarFill(tam_games_played,${tam_basicAchiev[i][3]}, 'basic_fill${i}')
+            <\/script>
+        </div>
+        <div class="claim-bg" id="basic_cla${i}" onclick="ClaimClick(${i},'basic')">Claim</div>
+        <div class="claimed" id="basic_clai${i}">Claimed</div>
+    </div>
+</div>
+    `);
+
+
+            if (tam_basicAchiev[i][0] == 0) {
+                //its not claimable
+                console.log(false);
+                $('#basic_status' + i).fadeIn();
+            } else {
+                // it's claimable
+                console.log(true)
+                if (tam_basicAchiev[i][1] == 0) {
+                    //not claimed
+                    $("#basic_cla" + i).fadeIn();
+                } else {
+                    //already claimed
+                    $("#basic_clai" + i).fadeIn();
+                }
+            }
+        }
+        $('.content').append('<div class="sub-ti">Offline</div>');
+
+        //Offline
+        for (i = 0; i <= 9; i++) {
+            $('.content').append(`
+<div class="ring">
+<div class="ct-ti">Win ${tam_offlineAchiev[i][3]} times</div>
+<div class="ct-con">
+<div class="tam_coins">
+    <img src="res/img/coins.png" class="tam_coins-img">
+    <div id="tam_coins">${CoinAppend(tam_offlineAchiev[i][2])}</div>
+</div>
+<div class="status" id="offline_status${i}">
+    <div class="status-txt">${tam_games_won}/${tam_offlineAchiev[i][3]}</div>
+    <div class="bar"><div class="filled" id="offline_fill${i}"></div></div>
+    <script>
+        BarFill(${tam_games_won},${tam_offlineAchiev[i][3]}, 'offline_fill${i}')
+    <\/script>
+</div>
+<div class="claim-bg" id="offline_cla${i}" onclick="ClaimClick(${i},'offline')">Claim</div>
+<div class="claimed" id="offline_clai${i}">Claimed</div>
+</div>
+</div>
+`);
+
+
+            if (tam_offlineAchiev[i][0] == 0) {
+                //its not claimable
+                console.log(false);
+                $('#offline_status' + i).fadeIn();
+            } else {
+                // it's claimable
+                console.log(true)
+                if (tam_offlineAchiev[i][1] == 0) {
+                    //not claimed
+                    $("#offline_cla" + i).fadeIn();
+                } else {
+                    //already claimed
+                    $("#offline_clai" + i).fadeIn();
+                }
+            }
+        }
+
+        for (i = 10; i <= 17; i++) {
+            $('.content').append(`
+<div class="ring">
+<div class="ct-ti">Reach ${tam_offlineAchiev[i][3]} correct answers</div>
+<div class="ct-con">
+<div class="tam_coins">
+    <img src="res/img/coins.png" class="tam_coins-img">
+    <div id="tam_coins">${CoinAppend(tam_offlineAchiev[i][2])}</div>
+</div>
+<div class="status" id="offline_status${i}">
+    <div class="status-txt">${tam_correct_answers}/${tam_offlineAchiev[i][3]}</div>
+    <div class="bar"><div class="filled" id="offline_fill${i}"></div></div>
+    <script>
+        BarFill(${tam_correct_answers},${tam_offlineAchiev[i][3]}, 'offline_fill${i}')
+    <\/script>
+</div>
+<div class="claim-bg" id="offline_cla${i}" onclick="ClaimClick(${i},'offline')">Claim</div>
+<div class="claimed" id="offline_clai${i}">Claimed</div>
+</div>
+</div>
+`);
+
+
+            if (tam_offlineAchiev[i][0] == 0) {
+                //its not claimable
+                console.log(false);
+                $('#offline_status' + i).fadeIn();
+            } else {
+                // it's claimable
+                console.log(true)
+                if (tam_offlineAchiev[i][1] == 0) {
+                    //not claimed
+                    $("#offline_cla" + i).fadeIn();
+                } else {
+                    //already claimed
+                    $("#offline_clai" + i).fadeIn();
+                }
+            }
+        }
+
+        tam_xp = parseInt(localStorage.tam_xp);
+        Level = Math.trunc(tam_xp / 15);
+
+        $('.content').append('<div class="sub-ti">Online</div>');
+
+        //Online
+        for (i = 0; i <= 7; i++) {
+            $('.content').append(`
+<div class="ring">
+<div class="ct-ti">Reach Level ${tam_onlineAchiev[i][3]}</div>
+<div class="ct-con">
+<div class="tam_coins">
+<img src="res/img/coins.png" class="tam_coins-img">
+<div id="tam_coins">${CoinAppend(tam_onlineAchiev[i][2])}</div>
+</div>
+<div class="status" id="online_status${i}">
+<div class="status-txt">${Level}/${tam_onlineAchiev[i][3]}</div>
+<div class="bar"><div class="filled" id="online_fill${i}"></div></div>
+<script>
+BarFill(${Level},${tam_onlineAchiev[i][3]}, 'online_fill${i}')
+<\/script>
+</div>
+<div class="claim-bg" id="online_cla${i}" onclick="ClaimClick(${i},'online')">Claim</div>
+<div class="claimed" id="online_clai${i}">Claimed</div>
+</div>
+</div>
+`);
+
+
+            if (tam_onlineAchiev[i][0] == 0) {
+                //its not claimable
+                console.log(false);
+                $('#online_status' + i).fadeIn();
+            } else {
+                // it's claimable
+                console.log(true)
+                if (tam_onlineAchiev[i][1] == 0) {
+                    //not claimed
+                    $("#online_cla" + i).fadeIn();
+                } else {
+                    //already claimed
+                    $("#online_clai" + i).fadeIn();
+                }
+            }
+        }
+
+        for (i = 8; i <= 18; i++) {
+            $('.content').append(`
+<div class="ring">
+<div class="ct-ti">Win ${tam_onlineAchiev[i][3]} online match</div>
+<div class="ct-con">
+<div class="tam_coins">
+<img src="res/img/coins.png" class="tam_coins-img">
+<div id="tam_coins">${CoinAppend(tam_onlineAchiev[i][2])}</div>
+</div>
+<div class="status" id="online_status${i}">
+<div class="status-txt">${tam_online_games_won}/${tam_onlineAchiev[i][3]}</div>
+<div class="bar"><div class="filled" id="online_fill${i}"></div></div>
+<script>
+BarFill(${tam_online_games_won},${tam_onlineAchiev[i][3]}, 'online_fill${i}')
+<\/script>
+</div>
+<div class="claim-bg" id="online_cla${i}" onclick="ClaimClick(${i},'online')">Claim</div>
+<div class="claimed" id="online_clai${i}">Claimed</div>
+</div>
+</div>
+`);
+
+
+            if (tam_onlineAchiev[i][0] == 0) {
+                //its not claimable
+                console.log(false);
+                $('#online_status' + i).fadeIn();
+            } else {
+                // it's claimable
+                console.log(true)
+                if (tam_onlineAchiev[i][1] == 0) {
+                    //not claimed
+                    $("#online_cla" + i).fadeIn();
+                } else {
+                    //already claimed
+                    $("#online_clai" + i).fadeIn();
+                }
+            }
+        }
+
+
+
+        function ClaimClick(id, type) {
+            if (type == 'basic') {
+                tam_basicAchiev[id][1] = 1;
+                localStorage.setItem('tam_basicAchiev', JSON.stringify(tam_basicAchiev));
+                $('#basic_cla' + id).fadeOut(0);
+                $("#basic_clai" + id).fadeIn();
+                tam_coins += tam_basicAchiev[id][2];
+            } else if (type == 'offline') {
+                tam_offlineAchiev[id][1] = 1;
+                localStorage.setItem('tam_offlineAchiev', JSON.stringify(tam_offlineAchiev));
+                $('#offline_cla' + id).fadeOut(0);
+                $("#offline_clai" + id).fadeIn();
+                tam_coins += tam_offlineAchiev[id][2];
+            } else if (type == 'online') {
+                tam_onlineAchiev[id][1] = 1;
+                localStorage.setItem('tam_onlineAchiev', JSON.stringify(tam_onlineAchiev));
+                $('#online_cla' + id).fadeOut(0);
+                $("#online_clai" + id).fadeIn();
+                tam_coins += tam_onlineAchiev[id][2];
+            }
+            localStorage.tam_coins = tam_coins;
+        }
+
+
+    </script>
+</body>
+
+</html>

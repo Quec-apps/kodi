@@ -1,0 +1,58 @@
+basic
+// Play 10 times 500
+// Play 50 times 500
+// Play 100 times 500
+// Play 500 times 500
+// Play 1000 times 1k
+// Play 1500 times 1.5k
+// Play 2000 times 2k
+// Play 3000 times 3k
+// Play 5000 times 10k
+
+offlineAchiev
+// Win 10 times 1k
+// Win 20 times 2k
+// Win 40 times 5k
+// Win 60 times 7k
+// Win 100 times 100k
+// Win 150 times 150k
+// Win 200 times 250k
+// Win 250 times 300k
+// Win 500 times 1M
+// Win 1000 times 10M
+
+// 10. Reach 100 correct answer 500
+// 11. Hit 200 correct answer 1k
+// 12. Hit 300 correct answer 2k
+// 13. Hit 400 correct answer 3k
+// 14. Hit 500 correct answer 4k
+// 15. Hit 1000 correct answer 6k
+// 16. Hit 2000 correct answer 15k
+// 17. Hit 5000 correct answer 50k
+
+onlineAchiev
+// Reach Level 1 500
+// Reach Level 5 1k
+// Reach Level 10 2k
+// Reach Level 20 10k
+// Reach Level 50 100k
+// Reach Level 100 500k
+// Reach Level 200 1M
+// Reach Level 400 50M
+// 8. Win 10 times 500
+// 9. Win 20 times 500
+// 10. Win 40 times 500
+// 11. Win 60 times 500
+// 12. Win 100 times 1k
+// 13. Win 150 times 1.5k
+// 14. Win 200 times 2k
+// 15. Win 250 times 2.5k
+// 16. Win 500 times 5k
+// 17. Win 750 times 7.5k
+// 18. Win 1000 times 50k
+
+
+tam_games_played
+tam_games_won
+correct_answers
+online_games_won
